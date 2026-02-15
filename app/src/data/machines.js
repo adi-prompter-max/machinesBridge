@@ -16,7 +16,7 @@ export const MACHINES = [
       "dimensions": "2119 x 481 x 1126 mm",
       "weight": "65 kg"
     },
-    "description": "Fritsch D219 — Processing Plant Fritsch D219. Category: dairy processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Fritsch Processing Plant Fritsch D219 (D219). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -38,7 +38,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "0.75 kW"
     },
-    "description": "Fagor K7047 — Cutting Machine Fagor K7047. Category: filling & filtration. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Cutting Machine Fagor K7047 — Fagor K7047. This filling & filtration equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -59,7 +59,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "0.75 kW"
     },
-    "description": "We offer a Cartoner Bosch H-9339E from Bosch, model H-9339E. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Bosch H-9339E — Cartoner Bosch H-9339E. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -78,7 +78,7 @@ export const MACHINES = [
     "specs": {
       "voltage": "220V 60Hz"
     },
-    "description": "Belt Filter Andritz K6529HD — Andritz K6529HD. This filling & filtration equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Belt Filter Andritz K6529HD by Andritz (Model: K6529HD). This filling & filtration machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -99,7 +99,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "0.75 kW"
     },
-    "description": "Bühler Cooling Tunnel Bühler R8888-S (R8888-S). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Bühler R8888-S — Cooling Tunnel Bühler R8888-S. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -121,7 +121,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "1.5 kW"
     },
-    "description": "Franz Haas V8520-S — Processing Plant Franz Haas V8520-S. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Franz Haas Processing Plant Franz Haas V8520-S (V8520-S). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -141,7 +141,7 @@ export const MACHINES = [
       "weight": "3043 kg",
       "voltage": "480V 60Hz"
     },
-    "description": "Rademaker Processing Line Rademaker C 5632-M (C 5632-M). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "We offer a Processing Line Rademaker C 5632-M from Rademaker, model C 5632-M. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -162,7 +162,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "0.75 kW"
     },
-    "description": "Lödige M 6804E — Processing Line Lödige M 6804E. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
+    "description": "Processing Line Lödige M 6804E by Lödige (Model: M 6804E). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -183,7 +183,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "2.2 kW"
     },
-    "description": "Krones 7594Plus — Sealing Machine Krones 7594Plus. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
+    "description": "Krones Sealing Machine Krones 7594Plus (7594Plus). Industrial-grade beverage production equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -205,7 +205,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "75 kW"
     },
-    "description": "We offer a Processing Plant Zeppelin 5621-S from Zeppelin, model 5621-S. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Zeppelin 5621-S — Processing Plant Zeppelin 5621-S. Category: bakery & confectionery. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -224,7 +224,7 @@ export const MACHINES = [
     "specs": {
       "weight": "162 kg"
     },
-    "description": "Peeling Machine Nilma T 9178A by Nilma (Model: T 9178A). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Nilma T 9178A — Peeling Machine Nilma T 9178A. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -246,7 +246,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "18.5 kW"
     },
-    "description": "Intensive Mixer Diosna L 9383 — Diosna L 9383. This mixing & processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "We offer a Intensive Mixer Diosna L 9383 from Diosna, model L 9383. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -267,7 +267,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "1.5 kW"
     },
-    "description": "Hacos Enrober Hacos P3751A (P3751A). Industrial-grade bakery & confectionery equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Enrober Hacos P3751A — Hacos P3751A. This bakery & confectionery equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -289,7 +289,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "15 kW"
     },
-    "description": "Tetra Pak M5580HD — Pasteurizer Tetra Pak M5580HD. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Pasteurizer Tetra Pak M5580HD from Tetra Pak, model M5580HD. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -311,7 +311,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "37 kW"
     },
-    "description": "Processing Line Ystral T 6174i — Ystral T 6174i. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Processing Line Ystral T 6174i by Ystral (Model: T 6174i). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -333,7 +333,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "2.2 kW"
     },
-    "description": "Production Machine Ystral M 1877E — Ystral M 1877E. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Ystral Production Machine Ystral M 1877E (M 1877E). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -354,7 +354,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "1.5 kW"
     },
-    "description": "Netzsch 6641Pro — Production Machine Netzsch 6641Pro. Category: beverage production. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Production Machine Netzsch 6641Pro — Netzsch 6641Pro. This beverage production equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -376,7 +376,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "37 kW"
     },
-    "description": "We offer a Dishwasher Bertos N 8789 from Bertos, model N 8789. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Bertos N 8789 — Dishwasher Bertos N 8789. Category: filling & filtration. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -397,7 +397,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "45 kW"
     },
-    "description": "We offer a Production Machine Rieter X 2101E from Rieter, model X 2101E. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Production Machine Rieter X 2101E — Rieter X 2101E. This mixing & processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -417,7 +417,7 @@ export const MACHINES = [
       "dimensions": "4626 x 1001 x 1188 mm",
       "voltage": "380V 50Hz"
     },
-    "description": "Dinnissen K-9905XL — Processing Line Dinnissen K-9905XL. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Processing Line Dinnissen K-9905XL from Dinnissen, model K-9905XL. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -437,7 +437,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "30 kW"
     },
-    "description": "Zeppelin F-6602-M — Ploughshare Mixer Zeppelin F-6602-M. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Ploughshare Mixer Zeppelin F-6602-M from Zeppelin, model F-6602-M. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -456,7 +456,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "645 x 2743 x 2911 mm"
     },
-    "description": "Processing Plant Ystral H8630-M by Ystral (Model: H8630-M). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Ystral Processing Plant Ystral H8630-M (H8630-M). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -478,7 +478,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "11 kW"
     },
-    "description": "Kemper 847i — Combination Weigher Kemper 847i. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
+    "description": "Combination Weigher Kemper 847i by Kemper (Model: 847i). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -542,7 +542,7 @@ export const MACHINES = [
       "dimensions": "2500 x 455 x 739 mm",
       "weight": "13441 kg"
     },
-    "description": "BrauKon -1299B — Labeling Machine BrauKon -1299B. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
+    "description": "BrauKon Labeling Machine BrauKon -1299B (-1299B). Industrial-grade beverage production equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -564,7 +564,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "22 kW"
     },
-    "description": "KRONEN Washing Machine KRONEN L 5840 (L 5840). Industrial-grade filling & filtration equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "Washing Machine KRONEN L 5840 by KRONEN (Model: L 5840). This filling & filtration machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -584,7 +584,7 @@ export const MACHINES = [
       "dimensions": "1419 x 2824 x 3447 mm",
       "voltage": "220V 50Hz"
     },
-    "description": "Cheese Vat SIG X-9107-M by SIG (Model: X-9107-M). This dairy processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "Cheese Vat SIG X-9107-M — SIG X-9107-M. This dairy processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -627,7 +627,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "11 kW"
     },
-    "description": "Flottwerk Diaphragm Pump Flottwerk D 9111C (D 9111C). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "We offer a Diaphragm Pump Flottwerk D 9111C from Flottwerk, model D 9111C. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -646,7 +646,7 @@ export const MACHINES = [
     "specs": {
       "voltage": "220V 50Hz"
     },
-    "description": "We offer a Flow Wrapper Optima 4550 from Optima, model 4550. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Flow Wrapper Optima 4550 by Optima (Model: 4550). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -667,7 +667,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "0.75 kW"
     },
-    "description": "Lödige Beater Lödige M1C (M1C). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Lödige M1C — Beater Lödige M1C. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -687,7 +687,7 @@ export const MACHINES = [
       "dimensions": "3920 x 2186 x 2135 mm",
       "weight": "778 kg"
     },
-    "description": "We offer a Production Machine Grundfos H4149 from Grundfos, model H4149. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Production Machine Grundfos H4149 — Grundfos H4149. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -708,7 +708,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "55 kW"
     },
-    "description": "Freezing Tunnel Flottwerk P595-S — Flottwerk P595-S. This dairy processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Flottwerk Freezing Tunnel Flottwerk P595-S (P595-S). Industrial-grade dairy processing equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -729,7 +729,7 @@ export const MACHINES = [
       "weight": "103 kg",
       "voltage": "380V 60Hz"
     },
-    "description": "Processing Plant Waukesha XL2665 — Waukesha XL2665. This mixing & processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Waukesha XL2665 — Processing Plant Waukesha XL2665. Category: mixing & processing. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -751,7 +751,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "7.5 kW"
     },
-    "description": "Processing Line Netzsch V-9675HD — Netzsch V-9675HD. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Netzsch Processing Line Netzsch V-9675HD (V-9675HD). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -773,7 +773,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "11 kW"
     },
-    "description": "Thermoformer Ishida E-1485C — Ishida E-1485C. This packaging & storage equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Ishida E-1485C — Thermoformer Ishida E-1485C. Category: packaging & storage. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -794,7 +794,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "22 kW"
     },
-    "description": "Grundfos Mash Tun Grundfos H-3753 (H-3753). Industrial-grade beverage production equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Mash Tun Grundfos H-3753 — Grundfos H-3753. This beverage production equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -814,7 +814,7 @@ export const MACHINES = [
       "dimensions": "3624 x 1926 x 1521 mm",
       "weight": "14582 kg"
     },
-    "description": "We offer a Processing Line Krones A-9677E from Krones, model A-9677E. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Krones Processing Line Krones A-9677E (A-9677E). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -835,7 +835,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "0.75 kW"
     },
-    "description": "Proofing Cabinet Kemper H 1565B — Kemper H 1565B. This bakery & confectionery equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "We offer a Proofing Cabinet Kemper H 1565B from Kemper, model H 1565B. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -856,7 +856,7 @@ export const MACHINES = [
       "weight": "4076 kg",
       "voltage": "220V 50Hz"
     },
-    "description": "We offer a Manufacturing Machine Rieter L-3644 from Rieter, model L-3644. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Manufacturing Machine Rieter L-3644 — Rieter L-3644. This mixing & processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -875,7 +875,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "3134 x 2814 x 2289 mm"
     },
-    "description": "Spiral Kneader Bühler E 4849Plus — Bühler E 4849Plus. This bakery & confectionery equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Spiral Kneader Bühler E 4849Plus by Bühler (Model: E 4849Plus). This bakery & confectionery machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -895,7 +895,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "1.1 kW"
     },
-    "description": "Separator Hiller A-7958XL by Hiller (Model: A-7958XL). This dairy processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "We offer a Separator Hiller A-7958XL from Hiller, model A-7958XL. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -917,7 +917,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "30 kW"
     },
-    "description": "We offer a Processing Plant Bühler X9206-L from Bühler, model X9206-L. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Bühler X9206-L — Processing Plant Bühler X9206-L. Category: packaging & storage. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -937,7 +937,7 @@ export const MACHINES = [
       "dimensions": "1948 x 1038 x 2770 mm",
       "weight": "189 kg"
     },
-    "description": "Industrial Machine Zeppelin T9644Plus by Zeppelin (Model: T9644Plus). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Industrial Machine Zeppelin T9644Plus — Zeppelin T9644Plus. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -958,7 +958,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "75 kW"
     },
-    "description": "We offer a Washing Machine TREIF D 371Plus from TREIF, model D 371Plus. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Washing Machine TREIF D 371Plus by TREIF (Model: D 371Plus). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -978,7 +978,7 @@ export const MACHINES = [
       "dimensions": "2493 x 2526 x 2990 mm",
       "weight": "192 kg"
     },
-    "description": "Whipping Machine Hiller W-634A — Hiller W-634A. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Hiller Whipping Machine Hiller W-634A (W-634A). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -998,7 +998,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "45 kW"
     },
-    "description": "Processing Line Retsch E9639-L — Retsch E9639-L. This mixing & processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "We offer a Processing Line Retsch E9639-L from Retsch, model E9639-L. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -1019,7 +1019,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "7.5 kW"
     },
-    "description": "Collette L 2639 — Paddle Mixer Collette L 2639. Category: mixing & processing. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Paddle Mixer Collette L 2639 from Collette, model L 2639. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -1038,7 +1038,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "2885 x 1998 x 2892 mm"
     },
-    "description": "Processing Line Ystral C-1128B by Ystral (Model: C-1128B). This dairy processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "We offer a Processing Line Ystral C-1128B from Ystral, model C-1128B. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -1102,7 +1102,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "1.1 kW"
     },
-    "description": "Tetra Pak Manufacturing Machine Tetra Pak C-4752-M (C-4752-M). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Manufacturing Machine Tetra Pak C-4752-M — Tetra Pak C-4752-M. This dairy processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -1123,7 +1123,7 @@ export const MACHINES = [
       "weight": "6115 kg",
       "voltage": "400V 50Hz"
     },
-    "description": "Roller Mill Savage Bros R4666Plus by Savage Bros (Model: R4666Plus). This bakery & confectionery machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Savage Bros R4666Plus — Roller Mill Savage Bros R4666Plus. Category: bakery & confectionery. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -1143,7 +1143,7 @@ export const MACHINES = [
       "dimensions": "1426 x 2504 x 2535 mm",
       "weight": "3698 kg"
     },
-    "description": "We offer a Blast Chiller Bosch L3395XL from Bosch, model L3395XL. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Bosch Blast Chiller Bosch L3395XL (L3395XL). Industrial-grade packaging & storage equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -1164,7 +1164,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "15 kW"
     },
-    "description": "Ice Crusher Rheon X 9936 by Rheon (Model: X 9936). This dairy processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Rheon X 9936 — Ice Crusher Rheon X 9936. Category: dairy processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -1183,7 +1183,7 @@ export const MACHINES = [
     "specs": {
       "weight": "871 kg"
     },
-    "description": "Combi Oven Hobart T1596-M — Hobart T1596-M. This filling & filtration equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Hobart Combi Oven Hobart T1596-M (T1596-M). Industrial-grade filling & filtration equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -1223,7 +1223,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "0.37 kW"
     },
-    "description": "Processing Plant Fritsch D6912XL by Fritsch (Model: D6912XL). This dairy processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Processing Plant Fritsch D6912XL from Fritsch, model D6912XL. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -1265,7 +1265,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "30 kW"
     },
-    "description": "Fluid Bed Dryer Retsch S638-L — Retsch S638-L. This packaging & storage equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Retsch Fluid Bed Dryer Retsch S638-L (S638-L). Industrial-grade packaging & storage equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -1326,7 +1326,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "75 kW"
     },
-    "description": "Firex N-6311Plus — Tilting Kettle Firex N-6311Plus. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Firex Tilting Kettle Firex N-6311Plus (N-6311Plus). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -1348,7 +1348,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "5.5 kW"
     },
-    "description": "Zanussi Combi Oven Zanussi H-9930-M (H-9930-M). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "We offer a Combi Oven Zanussi H-9930-M from Zanussi, model H-9930-M. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -1409,7 +1409,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "90 kW"
     },
-    "description": "Handtmann Meat Grinder Handtmann L 9089C (L 9089C). Industrial-grade meat processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Meat Grinder Handtmann L 9089C by Handtmann (Model: L 9089C). This meat processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -1430,7 +1430,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "37 kW"
     },
-    "description": "We offer a Industrial Machine Krones T4492XL from Krones, model T4492XL. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Industrial Machine Krones T4492XL by Krones (Model: T4492XL). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -1450,7 +1450,7 @@ export const MACHINES = [
       "weight": "124 kg",
       "voltage": "380V 50Hz"
     },
-    "description": "Freezing Tunnel Flottwerk L9258Pro by Flottwerk (Model: L9258Pro). This dairy processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "Flottwerk Freezing Tunnel Flottwerk L9258Pro (L9258Pro). Industrial-grade dairy processing equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -1470,7 +1470,7 @@ export const MACHINES = [
       "dimensions": "4440 x 900 x 440 mm",
       "weight": "14571 kg"
     },
-    "description": "Haas R-8678Plus — Membrane Filter Haas R-8678Plus. Category: filling & filtration. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Membrane Filter Haas R-8678Plus — Haas R-8678Plus. This filling & filtration equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -1491,7 +1491,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "30 kW"
     },
-    "description": "Conical Mixer IKA 2438XL by IKA (Model: 2438XL). This mixing & processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "IKA 2438XL — Conical Mixer IKA 2438XL. Category: mixing & processing. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -1512,7 +1512,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "55 kW"
     },
-    "description": "We offer a Processing Plant Eirich M-3869-M from Eirich, model M-3869-M. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Processing Plant Eirich M-3869-M by Eirich (Model: M-3869-M). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -1532,7 +1532,7 @@ export const MACHINES = [
       "dimensions": "3654 x 1394 x 430 mm",
       "weight": "140 kg"
     },
-    "description": "Hosokawa C 7437-M — Processing Line Hosokawa C 7437-M. Category: packaging & storage. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Processing Line Hosokawa C 7437-M from Hosokawa, model C 7437-M. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -1594,7 +1594,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "45 kW"
     },
-    "description": "SPX Flow T2592Plus — Processing Plant SPX Flow T2592Plus. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Processing Plant SPX Flow T2592Plus — SPX Flow T2592Plus. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -1614,7 +1614,7 @@ export const MACHINES = [
       "weight": "3315 kg",
       "voltage": "480V 50Hz"
     },
-    "description": "Siemens Freeze Dryer Siemens X-7724A (X-7724A). Industrial-grade packaging & storage equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "We offer a Freeze Dryer Siemens X-7724A from Siemens, model X-7724A. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -1636,7 +1636,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "30 kW"
     },
-    "description": "We offer a Peeling Machine Urschel X157E from Urschel, model X157E. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Peeling Machine Urschel X157E by Urschel (Model: X157E). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -1656,7 +1656,7 @@ export const MACHINES = [
       "dimensions": "3208 x 235 x 909 mm",
       "voltage": "480V 50Hz"
     },
-    "description": "Bertos Cutting Machine Bertos C-6679HD (C-6679HD). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "We offer a Cutting Machine Bertos C-6679HD from Bertos, model C-6679HD. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -1678,7 +1678,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "4 kW"
     },
-    "description": "Spray Dryer Waukesha A 502 by Waukesha (Model: A 502). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Spray Dryer Waukesha A 502 from Waukesha, model A 502. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -1697,7 +1697,7 @@ export const MACHINES = [
     "specs": {
       "type": "Industrial"
     },
-    "description": "Industrial Machine GEA T 1032C by GEA (Model: T 1032C). This dairy processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "GEA Industrial Machine GEA T 1032C (T 1032C). Industrial-grade dairy processing equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -1716,7 +1716,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "1597 x 1434 x 2422 mm"
     },
-    "description": "Processing Line Hosokawa N 5615XL by Hosokawa (Model: N 5615XL). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Hosokawa Processing Line Hosokawa N 5615XL (N 5615XL). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -1738,7 +1738,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "45 kW"
     },
-    "description": "Manufacturing Machine Seepex L-8006Plus by Seepex (Model: L-8006Plus). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Manufacturing Machine Seepex L-8006Plus from Seepex, model L-8006Plus. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -1757,7 +1757,7 @@ export const MACHINES = [
     "specs": {
       "weight": "155 kg"
     },
-    "description": "Multivac N 5835 — Industrial Machine Multivac N 5835. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Industrial Machine Multivac N 5835 by Multivac (Model: N 5835). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -1777,7 +1777,7 @@ export const MACHINES = [
       "weight": "179 kg",
       "voltage": "230V 50Hz"
     },
-    "description": "Marel Industrial Machine Marel 2969XL (2969XL). Industrial-grade beverage production equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "Marel 2969XL — Industrial Machine Marel 2969XL. Category: beverage production. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -1818,7 +1818,7 @@ export const MACHINES = [
       "dimensions": "4295 x 2546 x 2393 mm",
       "weight": "25 kg"
     },
-    "description": "SPX Flow Industrial Machine SPX Flow E 7628HD (E 7628HD). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "SPX Flow E 7628HD — Industrial Machine SPX Flow E 7628HD. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -1837,7 +1837,7 @@ export const MACHINES = [
     "specs": {
       "type": "Industrial"
     },
-    "description": "Drum Dryer Baker Perkins T417Pro — Baker Perkins T417Pro. This packaging & storage equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Baker Perkins Drum Dryer Baker Perkins T417Pro (T417Pro). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -1856,7 +1856,7 @@ export const MACHINES = [
     "specs": {
       "type": "Industrial"
     },
-    "description": "Dishwasher Zanussi D9997Pro — Zanussi D9997Pro. This filling & filtration equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Zanussi Dishwasher Zanussi D9997Pro (D9997Pro). Industrial-grade filling & filtration equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -1876,7 +1876,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "55 kW"
     },
-    "description": "We offer a Salamander Grill Eloma V5853HD from Eloma, model V5853HD. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Salamander Grill Eloma V5853HD — Eloma V5853HD. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -1897,7 +1897,7 @@ export const MACHINES = [
       "weight": "737 kg",
       "voltage": "220V 60Hz"
     },
-    "description": "Processing Line GEA V 7364 — GEA V 7364. This mixing & processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Processing Line GEA V 7364 by GEA (Model: V 7364). This mixing & processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -1919,7 +1919,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "4 kW"
     },
-    "description": "TREIF A-6893Plus — Dicer TREIF A-6893Plus. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
+    "description": "Dicer TREIF A-6893Plus — TREIF A-6893Plus. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -1941,7 +1941,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "5.5 kW"
     },
-    "description": "Grundfos Processing Line Grundfos Z 5655XL (Z 5655XL). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Grundfos Z 5655XL — Processing Line Grundfos Z 5655XL. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -1962,7 +1962,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "4 kW"
     },
-    "description": "Cold Room Siemens S 7188Pro by Siemens (Model: S 7188Pro). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Siemens Cold Room Siemens S 7188Pro (S 7188Pro). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -2003,7 +2003,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "55 kW"
     },
-    "description": "Franz Haas X98 — Processing Line Franz Haas X98. Category: meat processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Franz Haas Processing Line Franz Haas X98 (X98). Industrial-grade meat processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -2045,7 +2045,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "37 kW"
     },
-    "description": "Amixon 1011 — Processing Line Amixon 1011. Category: packaging & storage. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Processing Line Amixon 1011 by Amixon (Model: 1011). This packaging & storage machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -2065,7 +2065,7 @@ export const MACHINES = [
       "dimensions": "3431 x 1650 x 2430 mm",
       "voltage": "380V 60Hz"
     },
-    "description": "We offer a Industrial Machine Silverson P 7022HD from Silverson, model P 7022HD. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Industrial Machine Silverson P 7022HD by Silverson (Model: P 7022HD). This mixing & processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -2085,7 +2085,7 @@ export const MACHINES = [
       "dimensions": "3105 x 328 x 2410 mm",
       "voltage": "480V 50Hz"
     },
-    "description": "Whipping Machine Pieralisi F4028 by Pieralisi (Model: F4028). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Whipping Machine Pieralisi F4028 — Pieralisi F4028. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -2106,7 +2106,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "4 kW"
     },
-    "description": "We offer a Centrifugal Decanter Ross S2789 from Ross, model S2789. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Ross Centrifugal Decanter Ross S2789 (S2789). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -2127,7 +2127,7 @@ export const MACHINES = [
       "weight": "673 kg",
       "voltage": "220V 50Hz"
     },
-    "description": "Processing Plant Waukesha E 4473 by Waukesha (Model: E 4473). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Processing Plant Waukesha E 4473 from Waukesha, model E 4473. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -2146,7 +2146,7 @@ export const MACHINES = [
     "specs": {
       "weight": "12845 kg"
     },
-    "description": "Sealed Air Flow Wrapper Sealed Air Z8653-M (Z8653-M). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Flow Wrapper Sealed Air Z8653-M by Sealed Air (Model: Z8653-M). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -2165,7 +2165,7 @@ export const MACHINES = [
     "specs": {
       "type": "Industrial"
     },
-    "description": "We offer a Cheese Vat Westfalia P-3378-L from Westfalia, model P-3378-L. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Westfalia P-3378-L — Cheese Vat Westfalia P-3378-L. Category: dairy processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -2225,7 +2225,7 @@ export const MACHINES = [
       "weight": "11050 kg",
       "voltage": "230V 50Hz"
     },
-    "description": "Pasteurizer APV N-6426XL — APV N-6426XL. This beverage production equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "APV N-6426XL — Pasteurizer APV N-6426XL. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -2246,7 +2246,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "0.37 kW"
     },
-    "description": "Haas Beating Machine Haas P-6722Plus (P-6722Plus). Industrial-grade mixing & processing equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "Haas P-6722Plus — Beating Machine Haas P-6722Plus. Category: mixing & processing. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -2267,7 +2267,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "22 kW"
     },
-    "description": "We offer a Separator Flottwerk C-2881 from Flottwerk, model C-2881. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Flottwerk Separator Flottwerk C-2881 (C-2881). Industrial-grade dairy processing equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -2309,7 +2309,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "90 kW"
     },
-    "description": "Fritsch 2-Phase Decanter Fritsch P5207C (P5207C). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "2-Phase Decanter Fritsch P5207C — Fritsch P5207C. This dairy processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -2329,7 +2329,7 @@ export const MACHINES = [
       "dimensions": "3779 x 2105 x 1683 mm",
       "weight": "49 kg"
     },
-    "description": "Rademaker N 1022-L — Industrial Machine Rademaker N 1022-L. Category: mixing & processing. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Industrial Machine Rademaker N 1022-L — Rademaker N 1022-L. This mixing & processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -2350,7 +2350,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "22 kW"
     },
-    "description": "Proofing Cabinet Diosna W-7830 by Diosna (Model: W-7830). This bakery & confectionery machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Diosna W-7830 — Proofing Cabinet Diosna W-7830. Category: bakery & confectionery. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -2391,7 +2391,7 @@ export const MACHINES = [
       "dimensions": "3209 x 615 x 2628 mm",
       "weight": "1684 kg"
     },
-    "description": "Rondo Dough Divider Rondo Z 4517 (Z 4517). Industrial-grade bakery & confectionery equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Dough Divider Rondo Z 4517 by Rondo (Model: Z 4517). This bakery & confectionery machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -2411,7 +2411,7 @@ export const MACHINES = [
       "weight": "766 kg",
       "voltage": "400V 50Hz"
     },
-    "description": "Processing Plant Bosch K-7995XL by Bosch (Model: K-7995XL). This dairy processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Bosch Processing Plant Bosch K-7995XL (K-7995XL). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -2432,7 +2432,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "15 kW"
     },
-    "description": "Fluid Bed Dryer Brabender W6151Plus by Brabender (Model: W6151Plus). This packaging & storage machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "We offer a Fluid Bed Dryer Brabender W6151Plus from Brabender, model W6151Plus. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -2453,7 +2453,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "4 kW"
     },
-    "description": "Tilting Kettle Firex P-9971-M by Firex (Model: P-9971-M). This mixing & processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "Tilting Kettle Firex P-9971-M — Firex P-9971-M. This mixing & processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -2513,7 +2513,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "4509 x 1828 x 3473 mm"
     },
-    "description": "Industrial Machine Grundfos W-7586Plus — Grundfos W-7586Plus. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Grundfos Industrial Machine Grundfos W-7586Plus (W-7586Plus). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -2535,7 +2535,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "11 kW"
     },
-    "description": "Bühler F847-S — Multihead Weigher Bühler F847-S. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Multihead Weigher Bühler F847-S from Bühler, model F847-S. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -2554,7 +2554,7 @@ export const MACHINES = [
     "specs": {
       "weight": "3205 kg"
     },
-    "description": "Centrifugal Decanter Krones M-6803i — Krones M-6803i. This dairy processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "We offer a Centrifugal Decanter Krones M-6803i from Krones, model M-6803i. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -2573,7 +2573,7 @@ export const MACHINES = [
     "specs": {
       "voltage": "480V 60Hz"
     },
-    "description": "Retsch H6980A — Fluid Bed Dryer Retsch H6980A. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
+    "description": "Fluid Bed Dryer Retsch H6980A — Retsch H6980A. This packaging & storage equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -2594,7 +2594,7 @@ export const MACHINES = [
       "weight": "101 kg",
       "voltage": "220V 50Hz"
     },
-    "description": "Hosokawa Diaphragm Pump Hosokawa W 253 (W 253). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "We offer a Diaphragm Pump Hosokawa W 253 from Hosokawa, model W 253. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -2615,7 +2615,7 @@ export const MACHINES = [
       "weight": "10 kg",
       "voltage": "220V 50Hz"
     },
-    "description": "Hiller Production Machine Hiller M-1085i (M-1085i). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Production Machine Hiller M-1085i by Hiller (Model: M-1085i). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -2637,7 +2637,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "3 kW"
     },
-    "description": "Tetra Pak Pressure Filter Tetra Pak V-6586 (V-6586). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Tetra Pak V-6586 — Pressure Filter Tetra Pak V-6586. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -2657,7 +2657,7 @@ export const MACHINES = [
       "dimensions": "1701 x 2604 x 3392 mm",
       "voltage": "220V 50Hz"
     },
-    "description": "We offer a Manufacturing Machine Ross N 4398i from Ross, model N 4398i. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Ross Manufacturing Machine Ross N 4398i (N 4398i). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -2677,7 +2677,7 @@ export const MACHINES = [
       "dimensions": "1890 x 673 x 1142 mm",
       "weight": "5457 kg"
     },
-    "description": "Bun Press Wachtel X 7876-L by Wachtel (Model: X 7876-L). This bakery & confectionery machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Bun Press Wachtel X 7876-L from Wachtel, model X 7876-L. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -2699,7 +2699,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "90 kW"
     },
-    "description": "Rondo Long Moulder Rondo -9150HD (-9150HD). Industrial-grade bakery & confectionery equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "We offer a Long Moulder Rondo -9150HD from Rondo, model -9150HD. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -2721,7 +2721,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "3 kW"
     },
-    "description": "Centrifugal Decanter IKA P4747-M by IKA (Model: P4747-M). This dairy processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "IKA Centrifugal Decanter IKA P4747-M (P4747-M). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -2742,7 +2742,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "2.2 kW"
     },
-    "description": "We offer a Processing Line ABB T6667XL from ABB, model T6667XL. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "ABB Processing Line ABB T6667XL (T6667XL). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -2764,7 +2764,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "75 kW"
     },
-    "description": "Intensive Mixer IKA Z 7148 by IKA (Model: Z 7148). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Intensive Mixer IKA Z 7148 — IKA Z 7148. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -2803,7 +2803,7 @@ export const MACHINES = [
     "specs": {
       "voltage": "220V 60Hz"
     },
-    "description": "2-Phase Decanter Netzsch S-93XL by Netzsch (Model: S-93XL). This dairy processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "2-Phase Decanter Netzsch S-93XL — Netzsch S-93XL. This dairy processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -2824,7 +2824,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "7.5 kW"
     },
-    "description": "Processing Line Pieralisi X2298 by Pieralisi (Model: X2298). This dairy processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "Pieralisi Processing Line Pieralisi X2298 (X2298). Industrial-grade dairy processing equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -2844,7 +2844,7 @@ export const MACHINES = [
       "dimensions": "577 x 2958 x 570 mm",
       "weight": "3179 kg"
     },
-    "description": "Clipping Machine Marel C 3664-L by Marel (Model: C 3664-L). This meat processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Marel C 3664-L — Clipping Machine Marel C 3664-L. Category: meat processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -2865,7 +2865,7 @@ export const MACHINES = [
       "weight": "4500 kg",
       "voltage": "380V 50Hz"
     },
-    "description": "Krones H 5281i — Industrial Machine Krones H 5281i. Category: mixing & processing. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Industrial Machine Krones H 5281i by Krones (Model: H 5281i). This mixing & processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -2885,7 +2885,7 @@ export const MACHINES = [
       "dimensions": "1466 x 2919 x 2357 mm",
       "weight": "2489 kg"
     },
-    "description": "We offer a Bun Press Miwe R 3520XL from Miwe, model R 3520XL. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Miwe Bun Press Miwe R 3520XL (R 3520XL). Industrial-grade bakery & confectionery equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -2907,7 +2907,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "1.5 kW"
     },
-    "description": "Tetra Pak Manufacturing Machine Tetra Pak L-4768 (L-4768). Industrial-grade mixing & processing equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "Manufacturing Machine Tetra Pak L-4768 — Tetra Pak L-4768. This mixing & processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -2927,7 +2927,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "0.55 kW"
     },
-    "description": "Processing Line ABB T 9083-L — ABB T 9083-L. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Processing Line ABB T 9083-L by ABB (Model: T 9083-L). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -2947,7 +2947,7 @@ export const MACHINES = [
       "dimensions": "2443 x 2134 x 2573 mm",
       "weight": "50 kg"
     },
-    "description": "Amixon S6386 — Manufacturing Machine Amixon S6386. Category: meat processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Manufacturing Machine Amixon S6386 from Amixon, model S6386. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -2968,7 +2968,7 @@ export const MACHINES = [
       "weight": "46 kg",
       "voltage": "220V 50Hz"
     },
-    "description": "Sanitizing System Silverson X-6794HD by Silverson (Model: X-6794HD). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Silverson Sanitizing System Silverson X-6794HD (X-6794HD). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -3010,7 +3010,7 @@ export const MACHINES = [
       "weight": "2830 kg",
       "voltage": "230V 60Hz"
     },
-    "description": "Ploughshare Mixer Lödige V-3C by Lödige (Model: V-3C). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Lödige Ploughshare Mixer Lödige V-3C (V-3C). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -3032,7 +3032,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "22 kW"
     },
-    "description": "Rack Oven Bühler V-3246B by Bühler (Model: V-3246B). This bakery & confectionery machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "We offer a Rack Oven Bühler V-3246B from Bühler, model V-3246B. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -3053,7 +3053,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "30 kW"
     },
-    "description": "Processing Plant Retsch N7235i by Retsch (Model: N7235i). This meat processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "Retsch Processing Plant Retsch N7235i (N7235i). Industrial-grade meat processing equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -3073,7 +3073,7 @@ export const MACHINES = [
       "dimensions": "2331 x 2521 x 980 mm",
       "voltage": "400V 50Hz"
     },
-    "description": "Multihead Weigher Seepex R 237A by Seepex (Model: R 237A). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Seepex Multihead Weigher Seepex R 237A (R 237A). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -3095,7 +3095,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "75 kW"
     },
-    "description": "Baker Perkins Freezing Tunnel Baker Perkins V-1648 (V-1648). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "We offer a Freezing Tunnel Baker Perkins V-1648 from Baker Perkins, model V-1648. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -3138,7 +3138,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "75 kW"
     },
-    "description": "Bosch Processing Plant Bosch K5263E (K5263E). Industrial-grade mixing & processing equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "We offer a Processing Plant Bosch K5263E from Bosch, model K5263E. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -3158,7 +3158,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "30 kW"
     },
-    "description": "Elopak Separator Elopak Z 8026B (Z 8026B). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Separator Elopak Z 8026B by Elopak (Model: Z 8026B). This dairy processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -3178,7 +3178,7 @@ export const MACHINES = [
       "dimensions": "2749 x 1750 x 2593 mm",
       "voltage": "380V 60Hz"
     },
-    "description": "Dough Divider Diosna E3207-L — Diosna E3207-L. This bakery & confectionery equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Dough Divider Diosna E3207-L by Diosna (Model: E3207-L). This bakery & confectionery machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -3200,7 +3200,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "30 kW"
     },
-    "description": "Handtmann C 3051A — Processing Plant Handtmann C 3051A. Category: meat processing. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Processing Plant Handtmann C 3051A by Handtmann (Model: C 3051A). This meat processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -3220,7 +3220,7 @@ export const MACHINES = [
       "dimensions": "2634 x 1897 x 799 mm",
       "voltage": "230V 50Hz"
     },
-    "description": "We offer a Planetary Mixer Baker Perkins A6165i from Baker Perkins, model A6165i. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Baker Perkins Planetary Mixer Baker Perkins A6165i (A6165i). Industrial-grade mixing & processing equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -3262,7 +3262,7 @@ export const MACHINES = [
       "dimensions": "419 x 241 x 983 mm",
       "voltage": "380V 60Hz"
     },
-    "description": "Alfa Laval 2747A — Ice Cream Machine Alfa Laval 2747A. Category: dairy processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Alfa Laval Ice Cream Machine Alfa Laval 2747A (2747A). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -3325,7 +3325,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "18.5 kW"
     },
-    "description": "Bowl Cutter Kilia 7339Plus — Kilia 7339Plus. This meat processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "We offer a Bowl Cutter Kilia 7339Plus from Kilia, model 7339Plus. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -3347,7 +3347,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "4 kW"
     },
-    "description": "Wachtel Spiral Kneader Wachtel XL4295A (XL4295A). Industrial-grade bakery & confectionery equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Spiral Kneader Wachtel XL4295A by Wachtel (Model: XL4295A). This bakery & confectionery machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -3368,7 +3368,7 @@ export const MACHINES = [
       "weight": "20 kg",
       "voltage": "220V 50Hz"
     },
-    "description": "Multivac Pressure Filter Multivac N2819Pro (N2819Pro). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Pressure Filter Multivac N2819Pro by Multivac (Model: N2819Pro). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -3390,7 +3390,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "0.75 kW"
     },
-    "description": "Pressure Washer Dinnissen S-4112XL — Dinnissen S-4112XL. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Dinnissen S-4112XL — Pressure Washer Dinnissen S-4112XL. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -3451,7 +3451,7 @@ export const MACHINES = [
       "weight": "2715 kg",
       "voltage": "380V 60Hz"
     },
-    "description": "Cold Room Dinnissen D-9919HD by Dinnissen (Model: D-9919HD). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Cold Room Dinnissen D-9919HD from Dinnissen, model D-9919HD. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -3493,7 +3493,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "1.5 kW"
     },
-    "description": "Andritz L2613i — Processing Line Andritz L2613i. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Processing Line Andritz L2613i from Andritz, model L2613i. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -3513,7 +3513,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "3 kW"
     },
-    "description": "Processing Line Pieralisi Z 9874-S — Pieralisi Z 9874-S. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Processing Line Pieralisi Z 9874-S by Pieralisi (Model: Z 9874-S). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -3535,7 +3535,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "22 kW"
     },
-    "description": "Rheon T9161-M — Centrifugal Pump Rheon T9161-M. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Centrifugal Pump Rheon T9161-M from Rheon, model T9161-M. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -3554,7 +3554,7 @@ export const MACHINES = [
     "specs": {
       "type": "Industrial"
     },
-    "description": "Hiller Z-201 — Manufacturing Machine Hiller Z-201. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
+    "description": "Manufacturing Machine Hiller Z-201 — Hiller Z-201. This beverage production equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -3573,7 +3573,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "1793 x 805 x 2336 mm"
     },
-    "description": "Processing Plant Hosokawa E-6177B by Hosokawa (Model: E-6177B). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Processing Plant Hosokawa E-6177B from Hosokawa, model E-6177B. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -3594,7 +3594,7 @@ export const MACHINES = [
       "weight": "317 kg",
       "voltage": "480V 50Hz"
     },
-    "description": "3-Phase Decanter Seepex S5939-M by Seepex (Model: S5939-M). This dairy processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "3-Phase Decanter Seepex S5939-M — Seepex S5939-M. This dairy processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -3615,7 +3615,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "1.5 kW"
     },
-    "description": "Dinnissen Production Machine Dinnissen H 2357Pro (H 2357Pro). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Production Machine Dinnissen H 2357Pro — Dinnissen H 2357Pro. This dairy processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -3655,7 +3655,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "2439 x 1524 x 498 mm"
     },
-    "description": "Franz Haas L 5348Plus — Manufacturing Machine Franz Haas L 5348Plus. Category: packaging & storage. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Franz Haas Manufacturing Machine Franz Haas L 5348Plus (L 5348Plus). Industrial-grade packaging & storage equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -3676,7 +3676,7 @@ export const MACHINES = [
       "weight": "64 kg",
       "voltage": "400V 50Hz"
     },
-    "description": "Strainer Sormac W 8647B — Sormac W 8647B. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Sormac Strainer Sormac W 8647B (W 8647B). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -3697,7 +3697,7 @@ export const MACHINES = [
       "weight": "14356 kg",
       "voltage": "400V 60Hz"
     },
-    "description": "Sanitizing System Bosch Z2041XL — Bosch Z2041XL. This filling & filtration equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Bosch Sanitizing System Bosch Z2041XL (Z2041XL). Industrial-grade filling & filtration equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -3719,7 +3719,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "4 kW"
     },
-    "description": "Centrifugal Pump Krones E-6274 by Krones (Model: E-6274). This filling & filtration machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "We offer a Centrifugal Pump Krones E-6274 from Krones, model E-6274. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -3759,7 +3759,7 @@ export const MACHINES = [
       "dimensions": "4284 x 1893 x 2227 mm",
       "voltage": "400V 60Hz"
     },
-    "description": "Rack Oven Debag D-6245 by Debag (Model: D-6245). This bakery & confectionery machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Rack Oven Debag D-6245 — Debag D-6245. This bakery & confectionery equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -3781,7 +3781,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "75 kW"
     },
-    "description": "Grundfos Progressive Cavity Pump Grundfos N 9882-M (N 9882-M). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Progressive Cavity Pump Grundfos N 9882-M — Grundfos N 9882-M. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -3800,7 +3800,7 @@ export const MACHINES = [
     "specs": {
       "type": "Industrial"
     },
-    "description": "We offer a Processing Line Bosch K6138 from Bosch, model K6138. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Bosch Processing Line Bosch K6138 (K6138). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -3821,7 +3821,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "7.5 kW"
     },
-    "description": "Bosch Z 7959HD — Processing Line Bosch Z 7959HD. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Processing Line Bosch Z 7959HD from Bosch, model Z 7959HD. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -3862,7 +3862,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "30 kW"
     },
-    "description": "Netzsch Blast Chiller Netzsch Z5670Plus (Z5670Plus). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Blast Chiller Netzsch Z5670Plus by Netzsch (Model: Z5670Plus). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -3884,7 +3884,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "1.5 kW"
     },
-    "description": "Peeling Machine Dornow T-7095 by Dornow (Model: T-7095). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Peeling Machine Dornow T-7095 from Dornow, model T-7095. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -3906,7 +3906,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "4 kW"
     },
-    "description": "Production Machine Flottwerk 5342 — Flottwerk 5342. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Flottwerk 5342 — Production Machine Flottwerk 5342. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -3927,7 +3927,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "37 kW"
     },
-    "description": "Zeppelin R 8783E — Centrifugal Pump Zeppelin R 8783E. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
+    "description": "Centrifugal Pump Zeppelin R 8783E — Zeppelin R 8783E. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -3969,7 +3969,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "0.55 kW"
     },
-    "description": "Auriol Tilting Kettle Auriol R1694E (R1694E). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "We offer a Tilting Kettle Auriol R1694E from Auriol, model R1694E. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -3990,7 +3990,7 @@ export const MACHINES = [
       "weight": "121 kg",
       "voltage": "480V 60Hz"
     },
-    "description": "Combi Oven Convotherm S1207-M by Convotherm (Model: S1207-M). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Combi Oven Convotherm S1207-M from Convotherm, model S1207-M. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4012,7 +4012,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "0.55 kW"
     },
-    "description": "We offer a Cold Room Flottwerk F 8875Plus from Flottwerk, model F 8875Plus. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Flottwerk Cold Room Flottwerk F 8875Plus (F 8875Plus). Industrial-grade packaging & storage equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -4053,7 +4053,7 @@ export const MACHINES = [
       "weight": "137 kg",
       "voltage": "380V 60Hz"
     },
-    "description": "Production Machine Netzsch A3534-S — Netzsch A3534-S. This beverage production equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Production Machine Netzsch A3534-S by Netzsch (Model: A3534-S). This beverage production machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4074,7 +4074,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "0.75 kW"
     },
-    "description": "Hobart Combi Oven Hobart F2605i (F2605i). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Combi Oven Hobart F2605i — Hobart F2605i. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4096,7 +4096,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "3 kW"
     },
-    "description": "Hiller Production Machine Hiller N-6912-M (N-6912-M). Industrial-grade meat processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Hiller N-6912-M — Production Machine Hiller N-6912-M. Category: meat processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -4116,7 +4116,7 @@ export const MACHINES = [
       "dimensions": "2560 x 1594 x 2946 mm",
       "weight": "14635 kg"
     },
-    "description": "Ross E6567i — Processing Line Ross E6567i. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
+    "description": "Ross Processing Line Ross E6567i (E6567i). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4136,7 +4136,7 @@ export const MACHINES = [
       "dimensions": "527 x 979 x 1583 mm",
       "voltage": "230V 50Hz"
     },
-    "description": "Seepex P-5241-L — Industrial Machine Seepex P-5241-L. Category: mixing & processing. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Seepex Industrial Machine Seepex P-5241-L (P-5241-L). Industrial-grade mixing & processing equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -4158,7 +4158,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "3 kW"
     },
-    "description": "Processing Line Seepex P-5839HD by Seepex (Model: P-5839HD). This beverage production machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Seepex P-5839HD — Processing Line Seepex P-5839HD. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4177,7 +4177,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "4207 x 1208 x 2939 mm"
     },
-    "description": "Intensive Mixer Hosokawa H3725-S — Hosokawa H3725-S. This mixing & processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Hosokawa H3725-S — Intensive Mixer Hosokawa H3725-S. Category: mixing & processing. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -4199,7 +4199,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "55 kW"
     },
-    "description": "We offer a Pasteurizer Alfa Laval -6153-L from Alfa Laval, model -6153-L. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Alfa Laval Pasteurizer Alfa Laval -6153-L (-6153-L). Industrial-grade dairy processing equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -4221,7 +4221,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "3 kW"
     },
-    "description": "Siemens Industrial Machine Siemens H660-L (H660-L). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "We offer a Industrial Machine Siemens H660-L from Siemens, model H660-L. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -4243,7 +4243,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "2.2 kW"
     },
-    "description": "Stephan Stirring Kettle Stephan C4989-S (C4989-S). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Stephan C4989-S — Stirring Kettle Stephan C4989-S. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -4263,7 +4263,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "0.75 kW"
     },
-    "description": "Handtmann Production Machine Handtmann E-5657Plus (E-5657Plus). Industrial-grade packaging & storage equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "Production Machine Handtmann E-5657Plus by Handtmann (Model: E-5657Plus). This packaging & storage machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -4282,7 +4282,7 @@ export const MACHINES = [
     "specs": {
       "weight": "1670 kg"
     },
-    "description": "Industrial Machine Baker Perkins C-3984 by Baker Perkins (Model: C-3984). This meat processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Baker Perkins C-3984 — Industrial Machine Baker Perkins C-3984. Category: meat processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -4301,7 +4301,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "4636 x 1549 x 2415 mm"
     },
-    "description": "We offer a Pasteurizer GEA L-3937Pro from GEA, model L-3937Pro. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "GEA L-3937Pro — Pasteurizer GEA L-3937Pro. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4323,7 +4323,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "0.55 kW"
     },
-    "description": "We offer a Processing Line Rademaker X-621 from Rademaker, model X-621. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Processing Line Rademaker X-621 — Rademaker X-621. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -4344,7 +4344,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "4 kW"
     },
-    "description": "Industrial Machine Fristam W-986-L by Fristam (Model: W-986-L). This meat processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Industrial Machine Fristam W-986-L from Fristam, model W-986-L. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -4363,7 +4363,7 @@ export const MACHINES = [
     "specs": {
       "weight": "4980 kg"
     },
-    "description": "Tetra Pak XL 2971i — Mixer Tetra Pak XL 2971i. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
+    "description": "Mixer Tetra Pak XL 2971i — Tetra Pak XL 2971i. This beverage production equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4385,7 +4385,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "75 kW"
     },
-    "description": "Kemper Pressure Washer Kemper R-7909-L (R-7909-L). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Kemper R-7909-L — Pressure Washer Kemper R-7909-L. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4429,7 +4429,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "18.5 kW"
     },
-    "description": "Pieralisi Manufacturing Machine Pieralisi K 8466 (K 8466). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Manufacturing Machine Pieralisi K 8466 by Pieralisi (Model: K 8466). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4451,7 +4451,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "1.5 kW"
     },
-    "description": "Alfa Laval Production Machine Alfa Laval D 1553A (D 1553A). Industrial-grade packaging & storage equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "Production Machine Alfa Laval D 1553A by Alfa Laval (Model: D 1553A). This packaging & storage machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -4471,7 +4471,7 @@ export const MACHINES = [
       "dimensions": "4919 x 614 x 3319 mm",
       "weight": "603 kg"
     },
-    "description": "Mash Tun Baker Perkins V 6256 — Baker Perkins V 6256. This beverage production equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Baker Perkins V 6256 — Mash Tun Baker Perkins V 6256. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4492,7 +4492,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "18.5 kW"
     },
-    "description": "Electrolux 5564i — Salamander Grill Electrolux 5564i. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
+    "description": "Salamander Grill Electrolux 5564i by Electrolux (Model: 5564i). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4512,7 +4512,7 @@ export const MACHINES = [
       "dimensions": "3757 x 1107 x 1064 mm",
       "voltage": "380V 60Hz"
     },
-    "description": "Bühler R-8346 — Processing Plant Bühler R-8346. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Processing Plant Bühler R-8346 — Bühler R-8346. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -4570,7 +4570,7 @@ export const MACHINES = [
     "specs": {
       "weight": "5936 kg"
     },
-    "description": "Glatt Ploughshare Mixer Glatt L 3227E (L 3227E). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Ploughshare Mixer Glatt L 3227E by Glatt (Model: L 3227E). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -4592,7 +4592,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "5.5 kW"
     },
-    "description": "Thermoformer Bosch T-8555-S by Bosch (Model: T-8555-S). This packaging & storage machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "Bosch T-8555-S — Thermoformer Bosch T-8555-S. Category: packaging & storage. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -4612,7 +4612,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "0.75 kW"
     },
-    "description": "Processing Plant Ross R9213A — Ross R9213A. This filling & filtration equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Ross Processing Plant Ross R9213A (R9213A). Industrial-grade filling & filtration equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4633,7 +4633,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "4 kW"
     },
-    "description": "Bosch Production Machine Bosch M-5938C (M-5938C). Industrial-grade filling & filtration equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "Production Machine Bosch M-5938C — Bosch M-5938C. This filling & filtration equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4654,7 +4654,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "18.5 kW"
     },
-    "description": "Hiller 5394XL — Manufacturing Machine Hiller 5394XL. Category: meat processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Manufacturing Machine Hiller 5394XL — Hiller 5394XL. This meat processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -4676,7 +4676,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "90 kW"
     },
-    "description": "Processing Line Amixon R8739i by Amixon (Model: R8739i). This beverage production machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Processing Line Amixon R8739i from Amixon, model R8739i. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4716,7 +4716,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "1.5 kW"
     },
-    "description": "Rotary Lobe Pump Ross M 1724A — Ross M 1724A. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Rotary Lobe Pump Ross M 1724A by Ross (Model: M 1724A). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4737,7 +4737,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "5.5 kW"
     },
-    "description": "Cartoner Ulma W 3640-S by Ulma (Model: W 3640-S). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Ulma W 3640-S — Cartoner Ulma W 3640-S. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -4759,7 +4759,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "90 kW"
     },
-    "description": "Electrolux P 3632XL — Combi Oven Electrolux P 3632XL. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
+    "description": "Combi Oven Electrolux P 3632XL by Electrolux (Model: P 3632XL). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4778,7 +4778,7 @@ export const MACHINES = [
     "specs": {
       "weight": "48 kg"
     },
-    "description": "Industrial Machine Haas XL4311i by Haas (Model: XL4311i). This mixing & processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "We offer a Industrial Machine Haas XL4311i from Haas, model XL4311i. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -4820,7 +4820,7 @@ export const MACHINES = [
       "weight": "10809 kg",
       "voltage": "400V 60Hz"
     },
-    "description": "Industrial Machine Franz Haas L-8627-M — Franz Haas L-8627-M. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Industrial Machine Franz Haas L-8627-M by Franz Haas (Model: L-8627-M). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -4842,7 +4842,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "0.75 kW"
     },
-    "description": "We offer a Manufacturing Machine Ross F-8899i from Ross, model F-8899i. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Manufacturing Machine Ross F-8899i — Ross F-8899i. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -4883,7 +4883,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "11 kW"
     },
-    "description": "Plate Cooler Brabender F-6163-L by Brabender (Model: F-6163-L). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Brabender Plate Cooler Brabender F-6163-L (F-6163-L). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -4902,7 +4902,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "3661 x 2516 x 3010 mm"
     },
-    "description": "Bosch Manufacturing Machine Bosch X5099Pro (X5099Pro). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Manufacturing Machine Bosch X5099Pro by Bosch (Model: X5099Pro). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -4924,7 +4924,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "0.75 kW"
     },
-    "description": "Vemag X-746-M — Derinding Machine Vemag X-746-M. Category: meat processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Derinding Machine Vemag X-746-M from Vemag, model X-746-M. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -4946,7 +4946,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "2.2 kW"
     },
-    "description": "Processing Plant Rieter S 2297A by Rieter (Model: S 2297A). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Rieter Processing Plant Rieter S 2297A (S 2297A). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -4967,7 +4967,7 @@ export const MACHINES = [
       "weight": "12 kg",
       "voltage": "230V 60Hz"
     },
-    "description": "Diaphragm Pump Multivac N1800A by Multivac (Model: N1800A). This filling & filtration machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "Multivac Diaphragm Pump Multivac N1800A (N1800A). Industrial-grade filling & filtration equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -4986,7 +4986,7 @@ export const MACHINES = [
     "specs": {
       "type": "Industrial"
     },
-    "description": "We offer a Manufacturing Machine Multivac C-3287B from Multivac, model C-3287B. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Manufacturing Machine Multivac C-3287B — Multivac C-3287B. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5006,7 +5006,7 @@ export const MACHINES = [
       "dimensions": "3260 x 1294 x 2833 mm",
       "weight": "13753 kg"
     },
-    "description": "Processing Line Franz Haas K5763E — Franz Haas K5763E. This dairy processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Franz Haas Processing Line Franz Haas K5763E (K5763E). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -5048,7 +5048,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "1.5 kW"
     },
-    "description": "Kemper W 8776C — Industrial Machine Kemper W 8776C. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Kemper Industrial Machine Kemper W 8776C (W 8776C). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5070,7 +5070,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "5.5 kW"
     },
-    "description": "Processing Line SPX Flow L5310Pro — SPX Flow L5310Pro. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "SPX Flow L5310Pro — Processing Line SPX Flow L5310Pro. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5090,7 +5090,7 @@ export const MACHINES = [
       "weight": "1200 kg",
       "voltage": "480V 50Hz"
     },
-    "description": "Strainer FAM N 6946HD by FAM (Model: N 6946HD). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Strainer FAM N 6946HD from FAM, model N 6946HD. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -5109,7 +5109,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "1616 x 1905 x 1403 mm"
     },
-    "description": "Eirich Manufacturing Machine Eirich R-6946C (R-6946C). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Manufacturing Machine Eirich R-6946C — Eirich R-6946C. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5128,7 +5128,7 @@ export const MACHINES = [
     "specs": {
       "voltage": "400V 60Hz"
     },
-    "description": "We offer a Pressure Filter Baker Perkins W2277-S from Baker Perkins, model W2277-S. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Baker Perkins W2277-S — Pressure Filter Baker Perkins W2277-S. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -5148,7 +5148,7 @@ export const MACHINES = [
       "dimensions": "432 x 683 x 1934 mm",
       "weight": "876 kg"
     },
-    "description": "We offer a Beating Machine Handtmann K-6009i from Handtmann, model K-6009i. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Beating Machine Handtmann K-6009i by Handtmann (Model: K-6009i). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5167,7 +5167,7 @@ export const MACHINES = [
     "specs": {
       "type": "Industrial"
     },
-    "description": "Wort Kettle Fristam K 1724E by Fristam (Model: K 1724E). This beverage production machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Fristam Wort Kettle Fristam K 1724E (K 1724E). Industrial-grade beverage production equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -5187,7 +5187,7 @@ export const MACHINES = [
       "dimensions": "4951 x 1228 x 2721 mm",
       "weight": "15 kg"
     },
-    "description": "We offer a Processing Plant Eirich D 9298 from Eirich, model D 9298. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Processing Plant Eirich D 9298 by Eirich (Model: D 9298). This beverage production machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -5206,7 +5206,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "2513 x 1567 x 2422 mm"
     },
-    "description": "Combi Oven Zanussi N-7138-M — Zanussi N-7138-M. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Combi Oven Zanussi N-7138-M by Zanussi (Model: N-7138-M). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -5228,7 +5228,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "3 kW"
     },
-    "description": "Rademaker Rotary Lobe Pump Rademaker E 6131HD (E 6131HD). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "We offer a Rotary Lobe Pump Rademaker E 6131HD from Rademaker, model E 6131HD. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -5247,7 +5247,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "3626 x 2602 x 1944 mm"
     },
-    "description": "We offer a Industrial Machine Hosokawa L 4917C from Hosokawa, model L 4917C. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Hosokawa L 4917C — Industrial Machine Hosokawa L 4917C. Category: mixing & processing. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5289,7 +5289,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "3 kW"
     },
-    "description": "We offer a Processing Line Netzsch C-1432-M from Netzsch, model C-1432-M. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Netzsch Processing Line Netzsch C-1432-M (C-1432-M). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5310,7 +5310,7 @@ export const MACHINES = [
       "weight": "68 kg",
       "voltage": "220V 60Hz"
     },
-    "description": "Ploughshare Mixer Amixon XL-4899E by Amixon (Model: XL-4899E). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Amixon XL-4899E — Ploughshare Mixer Amixon XL-4899E. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5331,7 +5331,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "45 kW"
     },
-    "description": "Processing Plant Multivac 5448Pro by Multivac (Model: 5448Pro). This dairy processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Processing Plant Multivac 5448Pro from Multivac, model 5448Pro. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -5351,7 +5351,7 @@ export const MACHINES = [
       "dimensions": "4421 x 2242 x 1627 mm",
       "weight": "1497 kg"
     },
-    "description": "Manufacturing Machine Fritsch S997Plus — Fritsch S997Plus. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Manufacturing Machine Fritsch S997Plus by Fritsch (Model: S997Plus). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -5373,7 +5373,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "0.37 kW"
     },
-    "description": "Haas L 8224Plus — Processing Line Haas L 8224Plus. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Processing Line Haas L 8224Plus by Haas (Model: L 8224Plus). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5394,7 +5394,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "2.2 kW"
     },
-    "description": "Production Machine Marel A-5506-L — Marel A-5506-L. This packaging & storage equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Marel A-5506-L — Production Machine Marel A-5506-L. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -5432,7 +5432,7 @@ export const MACHINES = [
     "specs": {
       "voltage": "400V 60Hz"
     },
-    "description": "Alfa Laval Manufacturing Machine Alfa Laval V 8750XL (V 8750XL). Industrial-grade beverage production equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Alfa Laval V 8750XL — Manufacturing Machine Alfa Laval V 8750XL. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -5454,7 +5454,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "55 kW"
     },
-    "description": "Seepex -3346 — Processing Plant Seepex -3346. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Processing Plant Seepex -3346 from Seepex, model -3346. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -5474,7 +5474,7 @@ export const MACHINES = [
       "weight": "972 kg",
       "voltage": "220V 50Hz"
     },
-    "description": "We offer a Manufacturing Machine Kemper C 8875-L from Kemper, model C 8875-L. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Manufacturing Machine Kemper C 8875-L by Kemper (Model: C 8875-L). This filling & filtration machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -5496,7 +5496,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "7.5 kW"
     },
-    "description": "Miwe Long Moulder Miwe C-5447-S (C-5447-S). Industrial-grade bakery & confectionery equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "We offer a Long Moulder Miwe C-5447-S from Miwe, model C-5447-S. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -5517,7 +5517,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "7.5 kW"
     },
-    "description": "Processing Line Waukesha K5094-S by Waukesha (Model: K5094-S). This beverage production machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Waukesha K5094-S — Processing Line Waukesha K5094-S. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -5538,7 +5538,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "2.2 kW"
     },
-    "description": "Processing Plant Baker Perkins 5209 by Baker Perkins (Model: 5209). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Baker Perkins 5209 — Processing Plant Baker Perkins 5209. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5560,7 +5560,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "1.1 kW"
     },
-    "description": "Industrial Machine Pieralisi 63 by Pieralisi (Model: 63). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Industrial Machine Pieralisi 63 from Pieralisi, model 63. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5579,7 +5579,7 @@ export const MACHINES = [
     "specs": {
       "type": "Industrial"
     },
-    "description": "Processing Plant Fristam E 6329C — Fristam E 6329C. This mixing & processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Processing Plant Fristam E 6329C by Fristam (Model: E 6329C). This mixing & processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5598,7 +5598,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "3271 x 2639 x 3036 mm"
     },
-    "description": "SPX Flow P1053XL — Blast Chiller SPX Flow P1053XL. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
+    "description": "Blast Chiller SPX Flow P1053XL by SPX Flow (Model: P1053XL). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -5620,7 +5620,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "15 kW"
     },
-    "description": "Krones Processing Plant Krones K 3101Pro (K 3101Pro). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Processing Plant Krones K 3101Pro by Krones (Model: K 3101Pro). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5641,7 +5641,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "2.2 kW"
     },
-    "description": "Processing Plant Alfa Laval A2615E — Alfa Laval A2615E. This meat processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "We offer a Processing Plant Alfa Laval A2615E from Alfa Laval, model A2615E. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -5662,7 +5662,7 @@ export const MACHINES = [
       "weight": "25 kg",
       "voltage": "400V 50Hz"
     },
-    "description": "Fristam S 2382HD — Blast Chiller Fristam S 2382HD. Category: packaging & storage. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Blast Chiller Fristam S 2382HD by Fristam (Model: S 2382HD). This packaging & storage machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -5682,7 +5682,7 @@ export const MACHINES = [
       "dimensions": "4850 x 2396 x 1191 mm",
       "weight": "778 kg"
     },
-    "description": "Homogenizer Alfa Laval 1042 — Alfa Laval 1042. This dairy processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Alfa Laval Homogenizer Alfa Laval 1042 (1042). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -5701,7 +5701,7 @@ export const MACHINES = [
     "specs": {
       "weight": "5203 kg"
     },
-    "description": "Processing Plant Hiller XL 5381C by Hiller (Model: XL 5381C). This beverage production machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "Hiller XL 5381C — Processing Plant Hiller XL 5381C. Category: beverage production. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -5723,7 +5723,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "1.1 kW"
     },
-    "description": "We offer a Cutting Machine Hobart K 2350B from Hobart, model K 2350B. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Cutting Machine Hobart K 2350B by Hobart (Model: K 2350B). This filling & filtration machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -5743,7 +5743,7 @@ export const MACHINES = [
       "dimensions": "3513 x 849 x 2789 mm",
       "weight": "3291 kg"
     },
-    "description": "Firex R7785XL — Stirring Kettle Firex R7785XL. Category: mixing & processing. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Stirring Kettle Firex R7785XL — Firex R7785XL. This mixing & processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5764,7 +5764,7 @@ export const MACHINES = [
       "weight": "514 kg",
       "voltage": "230V 50Hz"
     },
-    "description": "Roller Mill Aasted Z193Plus by Aasted (Model: Z193Plus). This bakery & confectionery machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Roller Mill Aasted Z193Plus — Aasted Z193Plus. This bakery & confectionery equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -5784,7 +5784,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "1.5 kW"
     },
-    "description": "Firex Steam Kettle Firex K-1088Pro (K-1088Pro). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Steam Kettle Firex K-1088Pro by Firex (Model: K-1088Pro). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5824,7 +5824,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "1672 x 1008 x 776 mm"
     },
-    "description": "Manufacturing Machine Kemper V3162 by Kemper (Model: V3162). This mixing & processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "Kemper V3162 — Manufacturing Machine Kemper V3162. Category: mixing & processing. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5845,7 +5845,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "3 kW"
     },
-    "description": "Planetary Mixer Baker Perkins S 5813 by Baker Perkins (Model: S 5813). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Baker Perkins S 5813 — Planetary Mixer Baker Perkins S 5813. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5865,7 +5865,7 @@ export const MACHINES = [
       "weight": "108 kg",
       "voltage": "380V 60Hz"
     },
-    "description": "Manufacturing Machine Grundfos N 3256XL — Grundfos N 3256XL. This bakery & confectionery equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "We offer a Manufacturing Machine Grundfos N 3256XL from Grundfos, model N 3256XL. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -5884,7 +5884,7 @@ export const MACHINES = [
     "specs": {
       "weight": "12887 kg"
     },
-    "description": "Lödige Processing Line Lödige M-3843C (M-3843C). Industrial-grade mixing & processing equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "We offer a Processing Line Lödige M-3843C from Lödige, model M-3843C. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5905,7 +5905,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "0.37 kW"
     },
-    "description": "IKA Processing Line IKA N1898A (N1898A). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "We offer a Processing Line IKA N1898A from IKA, model N1898A. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5926,7 +5926,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "5.5 kW"
     },
-    "description": "Hiller Manufacturing Machine Hiller X 7038HD (X 7038HD). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Manufacturing Machine Hiller X 7038HD — Hiller X 7038HD. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -5947,7 +5947,7 @@ export const MACHINES = [
       "weight": "20 kg",
       "voltage": "230V 50Hz"
     },
-    "description": "We offer a Processing Line Netzsch Z-3458 from Netzsch, model Z-3458. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Processing Line Netzsch Z-3458 by Netzsch (Model: Z-3458). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -5988,7 +5988,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "0.55 kW"
     },
-    "description": "Grundfos P 7038HD — Processing Line Grundfos P 7038HD. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
+    "description": "Grundfos Processing Line Grundfos P 7038HD (P 7038HD). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -6007,7 +6007,7 @@ export const MACHINES = [
     "specs": {
       "voltage": "230V 60Hz"
     },
-    "description": "Pieralisi Production Machine Pieralisi W-3426B (W-3426B). Industrial-grade beverage production equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Production Machine Pieralisi W-3426B — Pieralisi W-3426B. This beverage production equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -6029,7 +6029,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "0.37 kW"
     },
-    "description": "Dinnissen Plate Filter Dinnissen L 2297A (L 2297A). Industrial-grade filling & filtration equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "Plate Filter Dinnissen L 2297A by Dinnissen (Model: L 2297A). This filling & filtration machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -6050,7 +6050,7 @@ export const MACHINES = [
       "weight": "2865 kg",
       "voltage": "220V 60Hz"
     },
-    "description": "Conche Sollich P 7923Plus — Sollich P 7923Plus. This bakery & confectionery equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Sollich P 7923Plus — Conche Sollich P 7923Plus. Category: bakery & confectionery. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -6069,7 +6069,7 @@ export const MACHINES = [
     "specs": {
       "weight": "20 kg"
     },
-    "description": "We offer a Production Machine Silverson V 5358 from Silverson, model V 5358. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Production Machine Silverson V 5358 by Silverson (Model: V 5358). This beverage production machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -6091,7 +6091,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "37 kW"
     },
-    "description": "Belt Filter Rademaker Z 4472-M — Rademaker Z 4472-M. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Rademaker Z 4472-M — Belt Filter Rademaker Z 4472-M. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -6111,7 +6111,7 @@ export const MACHINES = [
       "weight": "31 kg",
       "voltage": "230V 50Hz"
     },
-    "description": "Tempering Machine Aasted C9436i — Aasted C9436i. This bakery & confectionery equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Tempering Machine Aasted C9436i by Aasted (Model: C9436i). This bakery & confectionery machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -6131,7 +6131,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "18.5 kW"
     },
-    "description": "We offer a Candle Filter SPX Flow X6223C from SPX Flow, model X6223C. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Candle Filter SPX Flow X6223C — SPX Flow X6223C. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -6153,7 +6153,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "22 kW"
     },
-    "description": "Hobart Combi Oven Hobart XL1188B (XL1188B). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Combi Oven Hobart XL1188B by Hobart (Model: XL1188B). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -6174,7 +6174,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "45 kW"
     },
-    "description": "We offer a Production Machine Hiller K 9930XL from Hiller, model K 9930XL. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Production Machine Hiller K 9930XL by Hiller (Model: K 9930XL). This beverage production machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -6196,7 +6196,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "11 kW"
     },
-    "description": "Processing Line Ross M 462Plus — Ross M 462Plus. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Ross Processing Line Ross M 462Plus (M 462Plus). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -6217,7 +6217,7 @@ export const MACHINES = [
       "weight": "5730 kg",
       "voltage": "220V 50Hz"
     },
-    "description": "Retsch Production Machine Retsch E6030Pro (E6030Pro). Industrial-grade meat processing equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "We offer a Production Machine Retsch E6030Pro from Retsch, model E6030Pro. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -6236,7 +6236,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "3961 x 1930 x 809 mm"
     },
-    "description": "CIP System Hosokawa A2776-L by Hosokawa (Model: A2776-L). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "CIP System Hosokawa A2776-L — Hosokawa A2776-L. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -6258,7 +6258,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "5.5 kW"
     },
-    "description": "APV W-7827 — Homogenizer APV W-7827. Category: dairy processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "APV Homogenizer APV W-7827 (W-7827). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -6279,7 +6279,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "0.37 kW"
     },
-    "description": "Cutting Machine Convotherm N 1822A — Convotherm N 1822A. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Convotherm Cutting Machine Convotherm N 1822A (N 1822A). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -6301,7 +6301,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "0.37 kW"
     },
-    "description": "Fritsch Processing Plant Fritsch S9551-L (S9551-L). Industrial-grade meat processing equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "Processing Plant Fritsch S9551-L by Fritsch (Model: S9551-L). This meat processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -6323,7 +6323,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "30 kW"
     },
-    "description": "Optima Vacuum Sealer Optima R7179-S (R7179-S). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Vacuum Sealer Optima R7179-S — Optima R7179-S. This packaging & storage equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -6344,7 +6344,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "3 kW"
     },
-    "description": "Processing Line Franz Haas T-7281C — Franz Haas T-7281C. This filling & filtration equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Franz Haas Processing Line Franz Haas T-7281C (T-7281C). Industrial-grade filling & filtration equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -6363,7 +6363,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "711 x 2207 x 472 mm"
     },
-    "description": "IKA X1407HD — Freeze Dryer IKA X1407HD. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
+    "description": "Freeze Dryer IKA X1407HD by IKA (Model: X1407HD). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -6385,7 +6385,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "90 kW"
     },
-    "description": "Amixon Industrial Machine Amixon T1130 (T1130). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "We offer a Industrial Machine Amixon T1130 from Amixon, model T1130. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -6407,7 +6407,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "2.2 kW"
     },
-    "description": "GEA Production Machine GEA F8439C (F8439C). Industrial-grade mixing & processing equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "We offer a Production Machine GEA F8439C from GEA, model F8439C. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -6428,7 +6428,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "0.37 kW"
     },
-    "description": "Silverson Drum Dryer Silverson W 1425A (W 1425A). Industrial-grade packaging & storage equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "Drum Dryer Silverson W 1425A — Silverson W 1425A. This packaging & storage equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -6450,7 +6450,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "5.5 kW"
     },
-    "description": "We offer a Industrial Machine Amixon F4867 from Amixon, model F4867. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Amixon Industrial Machine Amixon F4867 (F4867). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -6471,7 +6471,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "1.5 kW"
     },
-    "description": "Steinecker Sealing Machine Steinecker Z 2616-S (Z 2616-S). Industrial-grade beverage production equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Steinecker Z 2616-S — Sealing Machine Steinecker Z 2616-S. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -6492,7 +6492,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "90 kW"
     },
-    "description": "Sidel Filling Line Sidel XL-6350i (XL-6350i). Industrial-grade beverage production equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Sidel XL-6350i — Filling Line Sidel XL-6350i. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -6514,7 +6514,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "45 kW"
     },
-    "description": "Zeppelin Belt Dryer Zeppelin M2619A (M2619A). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "We offer a Belt Dryer Zeppelin M2619A from Zeppelin, model M2619A. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -6534,7 +6534,7 @@ export const MACHINES = [
       "weight": "4887 kg",
       "voltage": "220V 50Hz"
     },
-    "description": "Processing Plant Andritz S-4323HD by Andritz (Model: S-4323HD). This beverage production machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Processing Plant Andritz S-4323HD from Andritz, model S-4323HD. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -6577,7 +6577,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "0.37 kW"
     },
-    "description": "Enrober Prefamac T1896C by Prefamac (Model: T1896C). This bakery & confectionery machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Enrober Prefamac T1896C — Prefamac T1896C. This bakery & confectionery equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -6599,7 +6599,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "15 kW"
     },
-    "description": "Franz Haas Industrial Machine Franz Haas E4212E (E4212E). Industrial-grade packaging & storage equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "We offer a Industrial Machine Franz Haas E4212E from Franz Haas, model E4212E. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -6685,7 +6685,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "15 kW"
     },
-    "description": "Production Machine Waukesha N-3937XL by Waukesha (Model: N-3937XL). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Waukesha N-3937XL — Production Machine Waukesha N-3937XL. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -6728,7 +6728,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "45 kW"
     },
-    "description": "Rieter N 1467A — Processing Plant Rieter N 1467A. Category: bakery & confectionery. Good condition. Ready for dispatch from warehouse.",
+    "description": "Processing Plant Rieter N 1467A — Rieter N 1467A. This bakery & confectionery equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -6747,7 +6747,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "2835 x 2023 x 951 mm"
     },
-    "description": "We offer a Manufacturing Machine Siemens R-9037Plus from Siemens, model R-9037Plus. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Manufacturing Machine Siemens R-9037Plus by Siemens (Model: R-9037Plus). This beverage production machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -6767,7 +6767,7 @@ export const MACHINES = [
       "dimensions": "2315 x 2524 x 2133 mm",
       "voltage": "400V 60Hz"
     },
-    "description": "Processing Line Fristam F 4996HD by Fristam (Model: F 4996HD). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Fristam F 4996HD — Processing Line Fristam F 4996HD. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -6789,7 +6789,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "18.5 kW"
     },
-    "description": "Silverson W7160A — Industrial Machine Silverson W7160A. Category: meat processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Industrial Machine Silverson W7160A by Silverson (Model: W7160A). This meat processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -6811,7 +6811,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "4 kW"
     },
-    "description": "Enrober Gami T-1577Plus by Gami (Model: T-1577Plus). This bakery & confectionery machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Gami Enrober Gami T-1577Plus (T-1577Plus). Industrial-grade bakery & confectionery equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -6832,7 +6832,7 @@ export const MACHINES = [
       "weight": "193 kg",
       "voltage": "480V 60Hz"
     },
-    "description": "Processing Line Rademaker N-7365HD by Rademaker (Model: N-7365HD). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Processing Line Rademaker N-7365HD from Rademaker, model N-7365HD. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -6871,7 +6871,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "30 kW"
     },
-    "description": "Cooling Tunnel Hiller C 5242B — Hiller C 5242B. This packaging & storage equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Hiller Cooling Tunnel Hiller C 5242B (C 5242B). Industrial-grade packaging & storage equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -6890,7 +6890,7 @@ export const MACHINES = [
     "specs": {
       "weight": "5660 kg"
     },
-    "description": "Industrial Machine Bosch L-1810 by Bosch (Model: L-1810). This bakery & confectionery machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Bosch Industrial Machine Bosch L-1810 (L-1810). Industrial-grade bakery & confectionery equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -6932,7 +6932,7 @@ export const MACHINES = [
       "weight": "8101 kg",
       "voltage": "400V 50Hz"
     },
-    "description": "Manufacturing Machine Netzsch XL4189A — Netzsch XL4189A. This bakery & confectionery equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Manufacturing Machine Netzsch XL4189A by Netzsch (Model: XL4189A). This bakery & confectionery machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -6954,7 +6954,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "7.5 kW"
     },
-    "description": "We offer a Processing Line Tetra Pak P 380XL from Tetra Pak, model P 380XL. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Processing Line Tetra Pak P 380XL by Tetra Pak (Model: P 380XL). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -6974,7 +6974,7 @@ export const MACHINES = [
       "dimensions": "2135 x 907 x 1214 mm",
       "weight": "13 kg"
     },
-    "description": "We offer a Brewing System Pieralisi F3362Pro from Pieralisi, model F3362Pro. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Pieralisi Brewing System Pieralisi F3362Pro (F3362Pro). Industrial-grade beverage production equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -6993,7 +6993,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "1105 x 1718 x 941 mm"
     },
-    "description": "Andritz CIP System Andritz K 3315C (K 3315C). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "We offer a CIP System Andritz K 3315C from Andritz, model K 3315C. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -7012,7 +7012,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "3949 x 943 x 1165 mm"
     },
-    "description": "Industrial Machine Brabender Z2556Pro by Brabender (Model: Z2556Pro). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Industrial Machine Brabender Z2556Pro from Brabender, model Z2556Pro. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -7032,7 +7032,7 @@ export const MACHINES = [
       "dimensions": "4475 x 2502 x 2463 mm",
       "voltage": "230V 60Hz"
     },
-    "description": "Processing Plant Hosokawa W-1535C by Hosokawa (Model: W-1535C). This meat processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Processing Plant Hosokawa W-1535C from Hosokawa, model W-1535C. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -7115,7 +7115,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "0.37 kW"
     },
-    "description": "2-Phase Decanter Amixon D 958i — Amixon D 958i. This dairy processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "We offer a 2-Phase Decanter Amixon D 958i from Amixon, model D 958i. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -7156,7 +7156,7 @@ export const MACHINES = [
       "weight": "1319 kg",
       "voltage": "480V 50Hz"
     },
-    "description": "We offer a Processing Line Andritz V 3447 from Andritz, model V 3447. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Processing Line Andritz V 3447 by Andritz (Model: V 3447). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -7176,7 +7176,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "0.75 kW"
     },
-    "description": "We offer a Mash Tun Rieter T3030XL from Rieter, model T3030XL. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Rieter Mash Tun Rieter T3030XL (T3030XL). Industrial-grade beverage production equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -7197,7 +7197,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "1.5 kW"
     },
-    "description": "Spray Dryer Franz Haas X5428-S by Franz Haas (Model: X5428-S). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Franz Haas X5428-S — Spray Dryer Franz Haas X5428-S. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -7219,7 +7219,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "15 kW"
     },
-    "description": "Kemper M-4304Plus — Dough Divider Kemper M-4304Plus. Category: bakery & confectionery. Good condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Dough Divider Kemper M-4304Plus from Kemper, model M-4304Plus. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -7240,7 +7240,7 @@ export const MACHINES = [
       "weight": "12095 kg",
       "voltage": "220V 60Hz"
     },
-    "description": "APV L 2449i — Sealing Machine APV L 2449i. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Sealing Machine APV L 2449i from APV, model L 2449i. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -7262,7 +7262,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "55 kW"
     },
-    "description": "Kilia W9237B — Sawing Machine Kilia W9237B. Category: meat processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Kilia Sawing Machine Kilia W9237B (W9237B). Industrial-grade meat processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -7303,7 +7303,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "30 kW"
     },
-    "description": "We offer a Mash Tun Krones M7406-M from Krones, model M7406-M. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Mash Tun Krones M7406-M by Krones (Model: M7406-M). This beverage production machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -7325,7 +7325,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "22 kW"
     },
-    "description": "Ross Production Machine Ross F2386 (F2386). Industrial-grade meat processing equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "We offer a Production Machine Ross F2386 from Ross, model F2386. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -7344,7 +7344,7 @@ export const MACHINES = [
     "specs": {
       "weight": "126 kg"
     },
-    "description": "Processing Plant Grundfos C-9755 by Grundfos (Model: C-9755). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Grundfos C-9755 — Processing Plant Grundfos C-9755. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -7385,7 +7385,7 @@ export const MACHINES = [
       "dimensions": "684 x 555 x 2853 mm",
       "weight": "410 kg"
     },
-    "description": "Processing Line Pieralisi C 5912E by Pieralisi (Model: C 5912E). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Pieralisi Processing Line Pieralisi C 5912E (C 5912E). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -7427,7 +7427,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "22 kW"
     },
-    "description": "Ross Production Machine Ross K5657 (K5657). Industrial-grade beverage production equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Production Machine Ross K5657 by Ross (Model: K5657). This beverage production machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -7446,7 +7446,7 @@ export const MACHINES = [
     "specs": {
       "weight": "664 kg"
     },
-    "description": "Franz Haas E 6910Plus — Combination Weigher Franz Haas E 6910Plus. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
+    "description": "Franz Haas Combination Weigher Franz Haas E 6910Plus (E 6910Plus). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -7466,7 +7466,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "3 kW"
     },
-    "description": "Seydelmann K-3426Pro — Sawing Machine Seydelmann K-3426Pro. Category: meat processing. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Sawing Machine Seydelmann K-3426Pro — Seydelmann K-3426Pro. This meat processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -7486,7 +7486,7 @@ export const MACHINES = [
       "dimensions": "997 x 768 x 3259 mm",
       "voltage": "480V 50Hz"
     },
-    "description": "Savage Bros P 5079XL — Mogul Plant Savage Bros P 5079XL. Category: bakery & confectionery. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Mogul Plant Savage Bros P 5079XL — Savage Bros P 5079XL. This bakery & confectionery equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -7505,7 +7505,7 @@ export const MACHINES = [
     "specs": {
       "weight": "6 kg"
     },
-    "description": "Production Machine Fristam L-3384 — Fristam L-3384. This meat processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Production Machine Fristam L-3384 by Fristam (Model: L-3384). This meat processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -7524,7 +7524,7 @@ export const MACHINES = [
     "specs": {
       "weight": "176 kg"
     },
-    "description": "We offer a Industrial Machine Rademaker V587B from Rademaker, model V587B. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Industrial Machine Rademaker V587B by Rademaker (Model: V587B). This meat processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -7564,7 +7564,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "1965 x 1271 x 2594 mm"
     },
-    "description": "We offer a Derinding Machine Handtmann M-2471B from Handtmann, model M-2471B. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Derinding Machine Handtmann M-2471B by Handtmann (Model: M-2471B). This meat processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -7627,7 +7627,7 @@ export const MACHINES = [
       "dimensions": "3602 x 2914 x 2813 mm",
       "weight": "9 kg"
     },
-    "description": "Tempering Machine Savage Bros K8721 — Savage Bros K8721. This bakery & confectionery equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Savage Bros Tempering Machine Savage Bros K8721 (K8721). Industrial-grade bakery & confectionery equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -7668,7 +7668,7 @@ export const MACHINES = [
       "weight": "2688 kg",
       "voltage": "400V 60Hz"
     },
-    "description": "Plate Filter Retsch K8077HD by Retsch (Model: K8077HD). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Plate Filter Retsch K8077HD from Retsch, model K8077HD. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -7690,7 +7690,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "4 kW"
     },
-    "description": "Lauter Tun Marel C365i by Marel (Model: C365i). This beverage production machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "Lauter Tun Marel C365i — Marel C365i. This beverage production equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -7734,7 +7734,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "0.37 kW"
     },
-    "description": "Production Machine IKA F 4952E — IKA F 4952E. This meat processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "IKA Production Machine IKA F 4952E (F 4952E). Industrial-grade meat processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -7777,7 +7777,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "11 kW"
     },
-    "description": "Dinnissen Manufacturing Machine Dinnissen L558C (L558C). Industrial-grade filling & filtration equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "Manufacturing Machine Dinnissen L558C — Dinnissen L558C. This filling & filtration equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -7818,7 +7818,7 @@ export const MACHINES = [
       "dimensions": "4988 x 1522 x 1187 mm",
       "weight": "3735 kg"
     },
-    "description": "Bühler V890Pro — Industrial Machine Bühler V890Pro. Category: dairy processing. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Industrial Machine Bühler V890Pro — Bühler V890Pro. This dairy processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -7840,7 +7840,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "45 kW"
     },
-    "description": "Manufacturing Machine Waukesha A 9811Pro — Waukesha A 9811Pro. This mixing & processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Manufacturing Machine Waukesha A 9811Pro by Waukesha (Model: A 9811Pro). This mixing & processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -7902,7 +7902,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "45 kW"
     },
-    "description": "Rheon Manufacturing Machine Rheon Z3154C (Z3154C). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Manufacturing Machine Rheon Z3154C — Rheon Z3154C. This dairy processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -7923,7 +7923,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "55 kW"
     },
-    "description": "Processing Line Bühler F 8729-L by Bühler (Model: F 8729-L). This meat processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Processing Line Bühler F 8729-L — Bühler F 8729-L. This meat processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -7944,7 +7944,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "0.75 kW"
     },
-    "description": "Hosokawa H-4393XL — Paddle Mixer Hosokawa H-4393XL. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Paddle Mixer Hosokawa H-4393XL by Hosokawa (Model: H-4393XL). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -7965,7 +7965,7 @@ export const MACHINES = [
       "weight": "161 kg",
       "voltage": "220V 50Hz"
     },
-    "description": "Risco Meat Grinder Risco A5263 (A5263). Industrial-grade meat processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Meat Grinder Risco A5263 by Risco (Model: A5263). This meat processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -7987,7 +7987,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "75 kW"
     },
-    "description": "We offer a Production Machine Eirich X 1516-M from Eirich, model X 1516-M. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Eirich Production Machine Eirich X 1516-M (X 1516-M). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -8008,7 +8008,7 @@ export const MACHINES = [
       "weight": "34 kg",
       "voltage": "380V 50Hz"
     },
-    "description": "Manufacturing Machine Ross 4335 by Ross (Model: 4335). This packaging & storage machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "Ross 4335 — Manufacturing Machine Ross 4335. Category: packaging & storage. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -8029,7 +8029,7 @@ export const MACHINES = [
       "weight": "3548 kg",
       "voltage": "230V 60Hz"
     },
-    "description": "Filling Machine Kilia C 5926HD — Kilia C 5926HD. This meat processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Filling Machine Kilia C 5926HD by Kilia (Model: C 5926HD). This meat processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -8050,7 +8050,7 @@ export const MACHINES = [
       "weight": "64 kg",
       "voltage": "230V 60Hz"
     },
-    "description": "Hosokawa E5193HD — Processing Line Hosokawa E5193HD. Category: bakery & confectionery. Good condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Processing Line Hosokawa E5193HD from Hosokawa, model E5193HD. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -8091,7 +8091,7 @@ export const MACHINES = [
       "weight": "3637 kg",
       "voltage": "220V 50Hz"
     },
-    "description": "We offer a Labeling Machine Krones S7941 from Krones, model S7941. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Labeling Machine Krones S7941 by Krones (Model: S7941). This beverage production machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -8110,7 +8110,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "4531 x 1592 x 2067 mm"
     },
-    "description": "Centrifugal Decanter Silverson H8529 by Silverson (Model: H8529). This dairy processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Silverson Centrifugal Decanter Silverson H8529 (H8529). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -8130,7 +8130,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "1.5 kW"
     },
-    "description": "Pieralisi CIP System Pieralisi P-4999B (P-4999B). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "CIP System Pieralisi P-4999B by Pieralisi (Model: P-4999B). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -8149,7 +8149,7 @@ export const MACHINES = [
     "specs": {
       "type": "Industrial"
     },
-    "description": "We offer a 3-Phase Decanter Rademaker F-6799Pro from Rademaker, model F-6799Pro. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Rademaker F-6799Pro — 3-Phase Decanter Rademaker F-6799Pro. Category: dairy processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -8169,7 +8169,7 @@ export const MACHINES = [
       "dimensions": "3364 x 2584 x 2944 mm",
       "weight": "13400 kg"
     },
-    "description": "Production Machine Bühler C9919XL — Bühler C9919XL. This dairy processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Production Machine Bühler C9919XL by Bühler (Model: C9919XL). This dairy processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -8190,7 +8190,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "3 kW"
     },
-    "description": "Netzsch Production Machine Netzsch H 9203B (H 9203B). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Production Machine Netzsch H 9203B — Netzsch H 9203B. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -8210,7 +8210,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "1.5 kW"
     },
-    "description": "Processing Plant Kemper E 4511A — Kemper E 4511A. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Kemper Processing Plant Kemper E 4511A (E 4511A). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -8231,7 +8231,7 @@ export const MACHINES = [
       "weight": "147 kg",
       "voltage": "230V 60Hz"
     },
-    "description": "Risco Z771C — Bowl Cutter Risco Z771C. Category: meat processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Bowl Cutter Risco Z771C — Risco Z771C. This meat processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -8271,7 +8271,7 @@ export const MACHINES = [
       "dimensions": "1643 x 503 x 491 mm",
       "weight": "616 kg"
     },
-    "description": "SPX Flow 7856 — Processing Plant SPX Flow 7856. Category: mixing & processing. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "SPX Flow Processing Plant SPX Flow 7856 (7856). Industrial-grade mixing & processing equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -8293,7 +8293,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "1.5 kW"
     },
-    "description": "Flow Wrapper Sealed Air S6451 — Sealed Air S6451. This packaging & storage equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Sealed Air Flow Wrapper Sealed Air S6451 (S6451). Industrial-grade packaging & storage equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -8313,7 +8313,7 @@ export const MACHINES = [
       "dimensions": "1726 x 2847 x 2486 mm",
       "weight": "2299 kg"
     },
-    "description": "Brewhouse Siemens XL 303 — Siemens XL 303. This beverage production equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Siemens XL 303 — Brewhouse Siemens XL 303. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -8357,7 +8357,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "3 kW"
     },
-    "description": "Production Machine Bosch T 6709i by Bosch (Model: T 6709i). This mixing & processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "Bosch T 6709i — Production Machine Bosch T 6709i. Category: mixing & processing. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -8378,7 +8378,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "7.5 kW"
     },
-    "description": "We offer a Industrial Machine Netzsch X-8612 from Netzsch, model X-8612. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Netzsch Industrial Machine Netzsch X-8612 (X-8612). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -8397,7 +8397,7 @@ export const MACHINES = [
     "specs": {
       "weight": "766 kg"
     },
-    "description": "Rheon D-9142-L — Processing Line Rheon D-9142-L. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
+    "description": "Processing Line Rheon D-9142-L by Rheon (Model: D-9142-L). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -8418,7 +8418,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "22 kW"
     },
-    "description": "We offer a Production Machine Ystral A4052 from Ystral, model A4052. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Ystral A4052 — Production Machine Ystral A4052. Category: dairy processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -8478,7 +8478,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "770 x 1738 x 3017 mm"
     },
-    "description": "JBT P-4061A — Decanter JBT P-4061A. Category: dairy processing. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Decanter JBT P-4061A by JBT (Model: P-4061A). This dairy processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -8499,7 +8499,7 @@ export const MACHINES = [
       "weight": "5000 kg",
       "voltage": "380V 50Hz"
     },
-    "description": "Seepex Industrial Machine Seepex -1250XL (-1250XL). Industrial-grade mixing & processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Industrial Machine Seepex -1250XL — Seepex -1250XL. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -8521,7 +8521,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "4 kW"
     },
-    "description": "We offer a Pasteurizer Steinecker R 3192XL from Steinecker, model R 3192XL. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Steinecker R 3192XL — Pasteurizer Steinecker R 3192XL. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -8562,7 +8562,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "2.2 kW"
     },
-    "description": "We offer a Industrial Machine Zeppelin K-7211 from Zeppelin, model K-7211. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Industrial Machine Zeppelin K-7211 by Zeppelin (Model: K-7211). This beverage production machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -8584,7 +8584,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "75 kW"
     },
-    "description": "Clipping Machine Vemag V 3635XL — Vemag V 3635XL. This meat processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Vemag V 3635XL — Clipping Machine Vemag V 3635XL. Category: meat processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -8604,7 +8604,7 @@ export const MACHINES = [
       "dimensions": "4039 x 444 x 1309 mm",
       "weight": "4418 kg"
     },
-    "description": "We offer a Vacuum Cooker Electrolux P8523 from Electrolux, model P8523. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Electrolux P8523 — Vacuum Cooker Electrolux P8523. Category: mixing & processing. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -8624,7 +8624,7 @@ export const MACHINES = [
       "weight": "144 kg",
       "voltage": "220V 50Hz"
     },
-    "description": "We offer a Membrane Filter Alfa Laval M 6215E from Alfa Laval, model M 6215E. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Membrane Filter Alfa Laval M 6215E by Alfa Laval (Model: M 6215E). This filling & filtration machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -8646,7 +8646,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "2.2 kW"
     },
-    "description": "Checkweigher Flottwerk F 8614E by Flottwerk (Model: F 8614E). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Checkweigher Flottwerk F 8614E — Flottwerk F 8614E. This packaging & storage equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -8667,7 +8667,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "3 kW"
     },
-    "description": "Zeppelin Industrial Machine Zeppelin E-4612 (E-4612). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "We offer a Industrial Machine Zeppelin E-4612 from Zeppelin, model E-4612. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -8688,7 +8688,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "90 kW"
     },
-    "description": "We offer a Production Machine Alfa Laval M 8247-M from Alfa Laval, model M 8247-M. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Alfa Laval M 8247-M — Production Machine Alfa Laval M 8247-M. Category: mixing & processing. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -8710,7 +8710,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "90 kW"
     },
-    "description": "We offer a Industrial Machine Rheon Z 157Pro from Rheon, model Z 157Pro. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Industrial Machine Rheon Z 157Pro by Rheon (Model: Z 157Pro). This beverage production machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -8750,7 +8750,7 @@ export const MACHINES = [
       "weight": "5 kg",
       "voltage": "230V 50Hz"
     },
-    "description": "Kemper L 5469B — Processing Line Kemper L 5469B. Category: dairy processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Kemper Processing Line Kemper L 5469B (L 5469B). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -8770,7 +8770,7 @@ export const MACHINES = [
       "weight": "167 kg",
       "voltage": "220V 60Hz"
     },
-    "description": "We offer a Industrial Machine Dinnissen V332HD from Dinnissen, model V332HD. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Industrial Machine Dinnissen V332HD by Dinnissen (Model: V332HD). This beverage production machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -8811,7 +8811,7 @@ export const MACHINES = [
       "weight": "10832 kg",
       "voltage": "380V 50Hz"
     },
-    "description": "Progressive Cavity Pump Kemper N 1473-M — Kemper N 1473-M. This filling & filtration equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Kemper Progressive Cavity Pump Kemper N 1473-M (N 1473-M). Industrial-grade filling & filtration equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -8831,7 +8831,7 @@ export const MACHINES = [
       "dimensions": "2638 x 522 x 877 mm",
       "weight": "630 kg"
     },
-    "description": "Proofing Cabinet Wachtel M-6044XL — Wachtel M-6044XL. This bakery & confectionery equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Proofing Cabinet Wachtel M-6044XL by Wachtel (Model: M-6044XL). This bakery & confectionery machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -8851,7 +8851,7 @@ export const MACHINES = [
       "dimensions": "325 x 1121 x 2377 mm",
       "weight": "2395 kg"
     },
-    "description": "Ploughshare Mixer Amixon H-1803Plus — Amixon H-1803Plus. This mixing & processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Ploughshare Mixer Amixon H-1803Plus by Amixon (Model: H-1803Plus). This mixing & processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -8893,7 +8893,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "0.37 kW"
     },
-    "description": "Pieralisi L 6599Pro — Multihead Weigher Pieralisi L 6599Pro. Category: packaging & storage. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Multihead Weigher Pieralisi L 6599Pro from Pieralisi, model L 6599Pro. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -8994,7 +8994,7 @@ export const MACHINES = [
       "dimensions": "4297 x 759 x 2009 mm",
       "weight": "3774 kg"
     },
-    "description": "We offer a Spiral Kneader Rondo N 365-L from Rondo, model N 365-L. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Spiral Kneader Rondo N 365-L by Rondo (Model: N 365-L). This bakery & confectionery machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -9035,7 +9035,7 @@ export const MACHINES = [
       "weight": "128 kg",
       "voltage": "400V 60Hz"
     },
-    "description": "We offer a Processing Line Fristam N 9986 from Fristam, model N 9986. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Processing Line Fristam N 9986 by Fristam (Model: N 9986). This mixing & processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -9057,7 +9057,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "1.5 kW"
     },
-    "description": "We offer a Rinser Krones N-7387-M from Krones, model N-7387-M. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Krones N-7387-M — Rinser Krones N-7387-M. Category: beverage production. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -9076,7 +9076,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "1191 x 2305 x 2862 mm"
     },
-    "description": "Manufacturing Machine Baker Perkins A-3876B by Baker Perkins (Model: A-3876B). This meat processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Baker Perkins Manufacturing Machine Baker Perkins A-3876B (A-3876B). Industrial-grade meat processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -9115,7 +9115,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "3816 x 555 x 2847 mm"
     },
-    "description": "Drum Dryer Bosch C-9860-S — Bosch C-9860-S. This packaging & storage equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "We offer a Drum Dryer Bosch C-9860-S from Bosch, model C-9860-S. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -9135,7 +9135,7 @@ export const MACHINES = [
       "dimensions": "1011 x 1350 x 2084 mm",
       "voltage": "400V 60Hz"
     },
-    "description": "Kemper H-1905Pro — Processing Plant Kemper H-1905Pro. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Processing Plant Kemper H-1905Pro by Kemper (Model: H-1905Pro). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -9156,7 +9156,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "22 kW"
     },
-    "description": "Andritz R4806 — Manufacturing Machine Andritz R4806. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
+    "description": "Manufacturing Machine Andritz R4806 by Andritz (Model: R4806). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -9176,7 +9176,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "90 kW"
     },
-    "description": "Washing Machine Sormac Z806Plus — Sormac Z806Plus. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Washing Machine Sormac Z806Plus by Sormac (Model: Z806Plus). This filling & filtration machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -9197,7 +9197,7 @@ export const MACHINES = [
       "voltage": "230V 50Hz",
       "power": "30 kW"
     },
-    "description": "Conical Mixer Zeppelin 9838E — Zeppelin 9838E. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Conical Mixer Zeppelin 9838E by Zeppelin (Model: 9838E). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -9239,7 +9239,7 @@ export const MACHINES = [
       "weight": "1906 kg",
       "voltage": "230V 60Hz"
     },
-    "description": "Steam Kettle Rational P 7559 by Rational (Model: P 7559). This mixing & processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Rational P 7559 — Steam Kettle Rational P 7559. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -9258,7 +9258,7 @@ export const MACHINES = [
     "specs": {
       "voltage": "400V 50Hz"
     },
-    "description": "Kustner Tilting Kettle Kustner F6735-L (F6735-L). Industrial-grade mixing & processing equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "Tilting Kettle Kustner F6735-L — Kustner F6735-L. This mixing & processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -9316,7 +9316,7 @@ export const MACHINES = [
     "specs": {
       "weight": "5414 kg"
     },
-    "description": "Processing Plant Pieralisi 4946i by Pieralisi (Model: 4946i). This bakery & confectionery machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Pieralisi Processing Plant Pieralisi 4946i (4946i). Industrial-grade bakery & confectionery equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -9378,7 +9378,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "75 kW"
     },
-    "description": "We offer a Processing Line Tetra Pak D-1505 from Tetra Pak, model D-1505. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Processing Line Tetra Pak D-1505 — Tetra Pak D-1505. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -9400,7 +9400,7 @@ export const MACHINES = [
       "voltage": "380V 50Hz",
       "power": "45 kW"
     },
-    "description": "Pieralisi Industrial Machine Pieralisi Z 1014B (Z 1014B). Industrial-grade dairy processing equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "We offer a Industrial Machine Pieralisi Z 1014B from Pieralisi, model Z 1014B. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -9442,7 +9442,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "90 kW"
     },
-    "description": "Eirich X-2780 — Manufacturing Machine Eirich X-2780. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Manufacturing Machine Eirich X-2780 from Eirich, model X-2780. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -9463,7 +9463,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "1.1 kW"
     },
-    "description": "Tetra Pak Pasteurizer Tetra Pak P 380A (P 380A). Industrial-grade beverage production equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Pasteurizer Tetra Pak P 380A by Tetra Pak (Model: P 380A). This beverage production machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -9482,7 +9482,7 @@ export const MACHINES = [
     "specs": {
       "type": "Industrial"
     },
-    "description": "Handtmann Processing Line Handtmann S-5479-M (S-5479-M). Industrial-grade beverage production equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "We offer a Processing Line Handtmann S-5479-M from Handtmann, model S-5479-M. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -9504,7 +9504,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "18.5 kW"
     },
-    "description": "Production Machine Retsch N-5716i — Retsch N-5716i. This meat processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Retsch Production Machine Retsch N-5716i (N-5716i). Industrial-grade meat processing equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -9525,7 +9525,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "37 kW"
     },
-    "description": "Industrial Machine GEA H 9428 — GEA H 9428. This packaging & storage equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "GEA H 9428 — Industrial Machine GEA H 9428. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -9547,7 +9547,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "18.5 kW"
     },
-    "description": "GEA Industrial Machine GEA R-659Plus (R-659Plus). Industrial-grade meat processing equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "Industrial Machine GEA R-659Plus — GEA R-659Plus. This meat processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -9566,7 +9566,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "1726 x 1920 x 2802 mm"
     },
-    "description": "Filling Machine Handtmann T2771 by Handtmann (Model: T2771). This meat processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Handtmann Filling Machine Handtmann T2771 (T2771). Industrial-grade meat processing equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -9587,7 +9587,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "22 kW"
     },
-    "description": "Brewing System Zeppelin F2249C — Zeppelin F2249C. This beverage production equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Brewing System Zeppelin F2249C by Zeppelin (Model: F2249C). This beverage production machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -9608,7 +9608,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "15 kW"
     },
-    "description": "We offer a Production Machine Haas D8407i from Haas, model D8407i. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Haas Production Machine Haas D8407i (D8407i). Industrial-grade dairy processing equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -9628,7 +9628,7 @@ export const MACHINES = [
       "voltage": "380V 60Hz",
       "power": "11 kW"
     },
-    "description": "Silverson XL-7108XL — Sanitizing System Silverson XL-7108XL. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
+    "description": "Silverson Sanitizing System Silverson XL-7108XL (XL-7108XL). Industrial-grade filling & filtration equipment, in good working condition, regularly maintained. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -9648,7 +9648,7 @@ export const MACHINES = [
       "weight": "12 kg",
       "voltage": "380V 60Hz"
     },
-    "description": "Dinnissen Production Machine Dinnissen -2596-S (-2596-S). Industrial-grade dairy processing equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Production Machine Dinnissen -2596-S — Dinnissen -2596-S. This dairy processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -9669,7 +9669,7 @@ export const MACHINES = [
       "weight": "532 kg",
       "voltage": "230V 60Hz"
     },
-    "description": "Manufacturing Machine Baker Perkins X 14 by Baker Perkins (Model: X 14). This dairy processing machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Manufacturing Machine Baker Perkins X 14 — Baker Perkins X 14. This dairy processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -9688,7 +9688,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "635 x 700 x 3178 mm"
     },
-    "description": "Processing Plant Grundfos K 9645 — Grundfos K 9645. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Grundfos K 9645 — Processing Plant Grundfos K 9645. Category: filling & filtration. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -9710,7 +9710,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "1.1 kW"
     },
-    "description": "Mogul Plant Gami H-7780Pro — Gami H-7780Pro. This bakery & confectionery equipment is in good working condition, regularly maintained. Can be inspected on site.",
+    "description": "Mogul Plant Gami H-7780Pro by Gami (Model: H-7780Pro). This bakery & confectionery machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -9749,7 +9749,7 @@ export const MACHINES = [
     "specs": {
       "voltage": "480V 60Hz"
     },
-    "description": "Gami W 5921B — Conche Gami W 5921B. Category: bakery & confectionery. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Gami Conche Gami W 5921B (W 5921B). Industrial-grade bakery & confectionery equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -9769,7 +9769,7 @@ export const MACHINES = [
       "voltage": "230V 60Hz",
       "power": "30 kW"
     },
-    "description": "Manufacturing Machine Grundfos X-6328B by Grundfos (Model: X-6328B). This bakery & confectionery machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
+    "description": "Manufacturing Machine Grundfos X-6328B — Grundfos X-6328B. This bakery & confectionery equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -9789,7 +9789,7 @@ export const MACHINES = [
       "dimensions": "1275 x 1299 x 969 mm",
       "weight": "315 kg"
     },
-    "description": "Krones K-7592-M — Belt Feeder Scale Krones K-7592-M. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
+    "description": "We offer a Belt Feeder Scale Krones K-7592-M from Krones, model K-7592-M. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -9808,7 +9808,7 @@ export const MACHINES = [
     "specs": {
       "type": "Industrial"
     },
-    "description": "We offer a Intensive Mixer Collette 2105B from Collette, model 2105B. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Intensive Mixer Collette 2105B by Collette (Model: 2105B). This mixing & processing machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -9850,7 +9850,7 @@ export const MACHINES = [
       "voltage": "220V 50Hz",
       "power": "2.2 kW"
     },
-    "description": "Rademaker M1909-M — Manufacturing Machine Rademaker M1909-M. Category: mixing & processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Manufacturing Machine Rademaker M1909-M — Rademaker M1909-M. This mixing & processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -9872,7 +9872,7 @@ export const MACHINES = [
       "voltage": "480V 50Hz",
       "power": "5.5 kW"
     },
-    "description": "We offer a Processing Plant Marel 1332-L from Marel, model 1332-L. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Marel 1332-L — Processing Plant Marel 1332-L. Category: beverage production. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -9893,7 +9893,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "3 kW"
     },
-    "description": "Cold Room Rheon C8894Plus by Rheon (Model: C8894Plus). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "Rheon C8894Plus — Cold Room Rheon C8894Plus. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -9914,7 +9914,7 @@ export const MACHINES = [
       "weight": "47 kg",
       "voltage": "220V 50Hz"
     },
-    "description": "GEA H-4444C — Planetary Mixer GEA H-4444C. Category: mixing & processing. Excellent condition. Ready for dispatch from warehouse.",
+    "description": "Planetary Mixer GEA H-4444C — GEA H-4444C. This mixing & processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -9935,7 +9935,7 @@ export const MACHINES = [
       "weight": "50 kg",
       "voltage": "380V 60Hz"
     },
-    "description": "Franz Haas X-9911i — Processing Line Franz Haas X-9911i. Category: dairy processing. Good condition. Ready for dispatch from warehouse.",
+    "description": "Processing Line Franz Haas X-9911i — Franz Haas X-9911i. This dairy processing equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8434.20",
     "customsDuty": 7.5
   },
@@ -9955,7 +9955,7 @@ export const MACHINES = [
       "dimensions": "2324 x 2510 x 2857 mm",
       "weight": "1508 kg"
     },
-    "description": "We offer a Combi Steamer Hobart P-8589Plus from Hobart, model P-8589Plus. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Hobart Combi Steamer Hobart P-8589Plus (P-8589Plus). Industrial-grade filling & filtration equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -9975,7 +9975,7 @@ export const MACHINES = [
       "weight": "8832 kg",
       "voltage": "400V 60Hz"
     },
-    "description": "We offer a Processing Plant Siemens 8773B from Siemens, model 8773B. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Processing Plant Siemens 8773B by Siemens (Model: 8773B). This filling & filtration machine is in excellent condition, fully tested and operational. Available for immediate inspection and shipping.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -10057,7 +10057,7 @@ export const MACHINES = [
     "specs": {
       "weight": "11564 kg"
     },
-    "description": "Tetra Pak Processing Line Tetra Pak P-8851i (P-8851i). Industrial-grade mixing & processing equipment, in excellent condition, fully tested and operational. All functions verified.",
+    "description": "We offer a Processing Line Tetra Pak P-8851i from Tetra Pak, model P-8851i. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8438.80",
     "customsDuty": 7.5
   },
@@ -10077,7 +10077,7 @@ export const MACHINES = [
       "dimensions": "1967 x 2596 x 774 mm",
       "weight": "46 kg"
     },
-    "description": "We offer a Gear Pump Rheon E 9493B from Rheon, model E 9493B. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Gear Pump Rheon E 9493B — Rheon E 9493B. This filling & filtration equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   },
@@ -10097,7 +10097,7 @@ export const MACHINES = [
       "weight": "136 kg",
       "voltage": "380V 50Hz"
     },
-    "description": "Fluid Bed Dryer IKA Z5574Pro by IKA (Model: Z5574Pro). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "IKA Z5574Pro — Fluid Bed Dryer IKA Z5574Pro. Category: packaging & storage. Good condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -10118,7 +10118,7 @@ export const MACHINES = [
       "weight": "12389 kg",
       "voltage": "220V 60Hz"
     },
-    "description": "GEA Flow Wrapper GEA C-7601Pro (C-7601Pro). Industrial-grade packaging & storage equipment, in good working condition, regularly maintained. All functions verified.",
+    "description": "Flow Wrapper GEA C-7601Pro by GEA (Model: C-7601Pro). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -10158,7 +10158,7 @@ export const MACHINES = [
       "voltage": "400V 50Hz",
       "power": "37 kW"
     },
-    "description": "We offer a Dough Divider Diosna H-708HD from Diosna, model H-708HD. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "Diosna H-708HD — Dough Divider Diosna H-708HD. Category: bakery & confectionery. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -10179,7 +10179,7 @@ export const MACHINES = [
       "voltage": "480V 60Hz",
       "power": "4 kW"
     },
-    "description": "Processing Line Hosokawa X 8462A — Hosokawa X 8462A. This meat processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "Hosokawa Processing Line Hosokawa X 8462A (X 8462A). Industrial-grade meat processing equipment, in excellent condition, fully tested and operational. All functions verified.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -10198,7 +10198,7 @@ export const MACHINES = [
     "specs": {
       "dimensions": "1766 x 2886 x 1489 mm"
     },
-    "description": "We offer a Spray Dryer Rademaker P2598-M from Rademaker, model P2598-M. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Spray Dryer Rademaker P2598-M by Rademaker (Model: P2598-M). This packaging & storage machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
     "hsCode": "8422.40",
     "customsDuty": 7.5
   },
@@ -10217,7 +10217,7 @@ export const MACHINES = [
     "specs": {
       "weight": "2837 kg"
     },
-    "description": "Production Machine Netzsch H1441Plus — Netzsch H1441Plus. This meat processing equipment is in excellent condition, fully tested and operational. Can be inspected on site.",
+    "description": "We offer a Production Machine Netzsch H1441Plus from Netzsch, model H1441Plus. The machine is in excellent condition, fully tested and operational. Spare parts available.",
     "hsCode": "8438.50",
     "customsDuty": 7.5
   },
@@ -10239,7 +10239,7 @@ export const MACHINES = [
       "voltage": "400V 60Hz",
       "power": "22 kW"
     },
-    "description": "Manufacturing Machine ABB L-2489Pro by ABB (Model: L-2489Pro). This bakery & confectionery machine is in good working condition, regularly maintained. Available for immediate inspection and shipping.",
+    "description": "We offer a Manufacturing Machine ABB L-2489Pro from ABB, model L-2489Pro. The machine is in good working condition, regularly maintained. Spare parts available.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -10296,7 +10296,7 @@ export const MACHINES = [
     "specs": {
       "weight": "27 kg"
     },
-    "description": "We offer a Tempering Machine Hilliard N-4401A from Hilliard, model N-4401A. The machine is in good working condition, regularly maintained. Spare parts available.",
+    "description": "Tempering Machine Hilliard N-4401A — Hilliard N-4401A. This bakery & confectionery equipment is in good working condition, regularly maintained. Can be inspected on site.",
     "hsCode": "8438.10",
     "customsDuty": 7.5
   },
@@ -10317,7 +10317,7 @@ export const MACHINES = [
       "voltage": "220V 60Hz",
       "power": "90 kW"
     },
-    "description": "We offer a Dicer KRONEN N 4525C from KRONEN, model N 4525C. The machine is in excellent condition, fully tested and operational. Spare parts available.",
+    "description": "KRONEN N 4525C — Dicer KRONEN N 4525C. Category: filling & filtration. Excellent condition. Ready for dispatch from warehouse.",
     "hsCode": "8422.30",
     "customsDuty": 7.5
   }

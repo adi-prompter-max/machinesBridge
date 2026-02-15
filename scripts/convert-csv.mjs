@@ -1,38 +1,35 @@
 import fs from "fs";
 import Papa from "papaparse";
 
-const csv = fs.readFileSync("mock_machines.csv", "utf8");
+// Accept CSV path as argument: node scripts/convert-csv.mjs [path]
+const csvPath = process.argv[2] || "mock_machines.csv";
+const csv = fs.readFileSync(csvPath, "utf8");
 const { data } = Papa.parse(csv, { header: true, skipEmptyLines: true });
 
-// German category → app category
+// Category mapping — supports both German (mock_machines.csv) and English (scraper output)
 const CATEGORY_MAP = {
-  // meat
+  // German names (from mock data)
   "Fleischverarbeitungsmaschinen": "meat",
   "Fischverarbeitungsmaschinen": "meat",
   "Räucheranlagen": "meat",
-  // dairy
   "Milch & Milchprodukte": "dairy",
   "Dekanter": "dairy",
   "Molkereianlagen": "dairy",
   "Separatoren für Lebensmittel": "dairy",
   "Eismaschinen": "dairy",
-  // bakery
   "Bäckereimaschinen": "bakery",
   "Süßwarenmaschinen": "bakery",
   "Pastamaschinen": "bakery",
-  // beverage
   "Getränkemaschinen": "beverage",
   "Getränkeautomaten": "beverage",
   "Brauereianlagen": "beverage",
   "Kaffee-, Tee- & Tabakmaschinen": "beverage",
-  // packaging
   "Verpackungsmaschinen": "packaging",
   "Kühlanlagen für Lebensmittel": "packaging",
   "Trockner für Lebensmittel": "packaging",
   "Waagen (Lebensmittel)": "packaging",
   "Lagerung & Handhabung": "packaging",
   "Kartoffelchipsherstellungsmaschinen": "packaging",
-  // mixing
   "Mischanlagen": "mixing",
   "Kochkessel": "mixing",
   "Mühlen für Lebensmittel": "mixing",
@@ -45,7 +42,6 @@ const CATEGORY_MAP = {
   "Mengenmaschinen": "mixing",
   "Ölherstellung": "mixing",
   "Fettherstellung & Verarbeitung": "mixing",
-  // filling
   "Filter (Lebensmitteltechnik)": "filling",
   "Pumpen (Lebensmitteltechnik)": "filling",
   "Reinigungstechnik": "filling",
@@ -53,6 +49,47 @@ const CATEGORY_MAP = {
   "Küchentechnik": "filling",
   "Obstverarbeitung & Gemüseverarbeitung": "filling",
   "Maschinen für Feinkost": "filling",
+  // English names (from scraper)
+  "Meat processing machines": "meat",
+  "Fish processing": "meat",
+  "Food smoking equipment": "meat",
+  "Milk & dairy production": "dairy",
+  "Decanters": "dairy",
+  "Dairy plant equipment": "dairy",
+  "Separators": "dairy",
+  "Ice cream machines": "dairy",
+  "Bakery machines & pastry equipment": "bakery",
+  "Confectionery production": "bakery",
+  "Pasta processing machinery": "bakery",
+  "Beverage production": "beverage",
+  "Vending machines": "beverage",
+  "Brewing equipment": "beverage",
+  "Coffee, tea, tobacco processing": "beverage",
+  "Packaging machinery": "packaging",
+  "Refrigeration Systems": "packaging",
+  "Dryers": "packaging",
+  "Scales for food processing": "packaging",
+  "Storage & handling equipment": "packaging",
+  "Potato chips production": "packaging",
+  "Mixing machinery": "mixing",
+  "Cooking vessels": "mixing",
+  "Mills": "mixing",
+  "Grain processing machines": "mixing",
+  "Powder production & processing": "mixing",
+  "Sifting plants": "mixing",
+  "Other food technology": "mixing",
+  "Laboratory equipment for food": "mixing",
+  "Stirring machines & bakery mixers": "mixing",
+  "Blending machines": "mixing",
+  "Oil production": "mixing",
+  "Fat production & handling": "mixing",
+  "Filters for food processing": "filling",
+  "Pumps": "filling",
+  "Cleaning technology": "filling",
+  "Gastronomy equipment": "filling",
+  "Kitchen equipment": "filling",
+  "Fruit & vegetable processing": "filling",
+  "Delicatessen machinery": "filling",
 };
 
 // Condition mapping
@@ -336,8 +373,9 @@ function buildSpecs(row) {
   }
   if (row.electrical && row.electrical.trim()) {
     const elec = row.electrical.trim();
-    const voltMatch = elec.match(/Spannung:\s*([^;]+)/);
-    const powerMatch = elec.match(/Leistung:\s*([^;]+)/);
+    // Support both German (Spannung/Leistung) and English (Voltage/Power) labels
+    const voltMatch = elec.match(/(?:Spannung|Voltage):\s*([^;]+)/);
+    const powerMatch = elec.match(/(?:Leistung|Power):\s*([^;]+)/);
     if (voltMatch) specs.voltage = voltMatch[1].trim();
     if (powerMatch) specs.power = powerMatch[1].trim();
   }
@@ -364,7 +402,7 @@ const machines = data
       condition,
       price: parsePrice(row.price),
       location: translateLocation(row.location),
-      source: SOURCES[i % SOURCES.length],
+      source: row.source || SOURCES[i % SOURCES.length],
       image: EMOJI_MAP[cat],
       imageUrl: getImageUrl(cat),
       specs: buildSpecs(row),
