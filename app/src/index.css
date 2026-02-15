@@ -103,3 +103,250 @@ input:focus, select:focus, button:focus { outline: none; }
 ::selection { background: var(--primary); color: var(--primary-foreground); }
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+/* Responsive Design - Tablet (768px and below) */
+@media (max-width: 768px) {
+  /* Header */
+  .header-inner {
+    flex-direction: column !important;
+    gap: 1rem !important;
+    align-items: stretch !important;
+  }
+
+  .search-area {
+    min-width: 100% !important;
+    order: 2;
+  }
+
+  .header-stats {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    width: 100%;
+    order: 3;
+  }
+
+  /* Main content */
+  main {
+    padding: 1rem !important;
+  }
+
+  /* Category bar - smooth scrolling on mobile */
+  .category-bar {
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .category-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Filters */
+  .filters-row {
+    flex-direction: column !important;
+    gap: 1rem !important;
+    padding: 0.75rem 1rem !important;
+  }
+
+  .filter-group {
+    width: 100%;
+  }
+
+  .filter-inputs {
+    flex: 1 !important;
+  }
+
+  .filter-input {
+    flex: 1 !important;
+    width: auto !important;
+    min-width: 80px !important;
+  }
+
+  .condition-buttons {
+    width: 100%;
+    justify-content: stretch !important;
+  }
+
+  .condition-buttons button {
+    flex: 1 !important;
+  }
+
+  /* Grid - 2 columns on tablet */
+  .machines-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) !important;
+    gap: 1rem !important;
+  }
+
+  /* Card */
+  .card-image-area {
+    height: 160px !important;
+  }
+
+  /* Detail panel */
+  .detail-panel {
+    width: 100% !important;
+    padding: 1.5rem !important;
+  }
+
+  .detail-image-area {
+    height: 200px !important;
+  }
+
+  /* Footer */
+  .footer-inner {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  .footer-inner > div:first-child {
+    grid-column: 1 / -1;
+  }
+
+  /* Pagination */
+  .pagination {
+    flex-wrap: wrap !important;
+  }
+
+  .page-btn {
+    padding: 0.4rem 0.65rem !important;
+    font-size: 0.75rem !important;
+  }
+}
+
+/* Responsive Design - Mobile (480px and below) */
+@media (max-width: 480px) {
+  /* Header */
+  .header-inner {
+    padding: 0.75rem 1rem !important;
+  }
+
+  .search-area {
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+  }
+
+  .search-area button {
+    width: 100%;
+  }
+
+  .header-stats {
+    gap: 0.5rem !important;
+  }
+
+  .live-rates-pill {
+    display: none !important;
+  }
+
+  /* AI Search */
+  .ai-input-row {
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+  }
+
+  .ai-input-row input {
+    width: 100% !important;
+  }
+
+  .ai-input-row button {
+    width: 100% !important;
+  }
+
+  /* Main content */
+  main {
+    padding: 0.75rem !important;
+  }
+
+  /* Grid - Single column on mobile */
+  .machines-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.875rem !important;
+  }
+
+  /* Card */
+  .card-image-area {
+    height: 140px !important;
+  }
+
+  .card-pricing {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.75rem !important;
+  }
+
+  .calc-button {
+    width: 100%;
+    font-size: 0.7rem !important;
+    padding: 0.5rem !important;
+  }
+
+  /* Detail panel */
+  .detail-panel {
+    padding: 1rem !important;
+  }
+
+  .detail-image-area {
+    height: 160px !important;
+    margin-bottom: 1rem !important;
+  }
+
+  /* Action row - stack buttons */
+  .action-row {
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+  }
+
+  .action-row button {
+    width: 100%;
+  }
+
+  /* Footer - single column */
+  .footer-inner {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  .footer-inner > div:first-child {
+    grid-column: auto;
+  }
+
+  /* Pagination - compact */
+  .pagination {
+    gap: 0.35rem !important;
+  }
+
+  .page-btn {
+    padding: 0.35rem 0.5rem !important;
+    font-size: 0.7rem !important;
+  }
+
+  /* Hide middle page numbers on very small screens */
+  .pagination .page-btn:nth-child(n+4):nth-last-child(n+4) {
+    display: none;
+  }
+}
+
+/* Extra small devices (375px and below) */
+@media (max-width: 375px) {
+  .header-inner {
+    padding: 0.5rem 0.75rem !important;
+  }
+
+  main {
+    padding: 0.5rem !important;
+  }
+
+  .filters-row {
+    padding: 0.5rem 0.75rem !important;
+  }
+
+  .card-image-area {
+    height: 120px !important;
+  }
+
+  .detail-panel {
+    padding: 0.75rem !important;
+  }
+
+  .detail-image-area {
+    height: 140px !important;
+  }
+}

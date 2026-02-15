@@ -59,7 +59,7 @@ function MachineImage({ src, fallback, style }) {
 function Header({ searchQuery, setSearchQuery, showAISearch, setShowAISearch, totalCount }) {
   return (
     <header style={s.header}>
-      <div style={s.headerInner}>
+      <div style={s.headerInner} className="header-inner">
         <div style={s.logoArea}>
           <div style={s.logoMark}>MB</div>
           <div>
@@ -67,17 +67,17 @@ function Header({ searchQuery, setSearchQuery, showAISearch, setShowAISearch, to
             <p style={s.tagline}>German Machines → Indian Factories</p>
           </div>
         </div>
-        <div style={s.searchArea}>
+        <div style={s.searchArea} className="search-area">
           <div style={s.searchBox}>
             <span style={s.searchIcon}>⌕</span>
             <input type="text" placeholder="Search machines, brands, categories..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} style={s.searchInput} />
           </div>
           <button style={{ ...s.aiButton, ...(showAISearch ? s.aiButtonActive : {}) }} onClick={() => setShowAISearch(!showAISearch)}>✦ AI Search</button>
         </div>
-        <div style={s.headerStats}>
+        <div style={s.headerStats} className="header-stats">
           <div style={s.statPill}><span style={s.statNum}>{totalCount}</span> Machines</div>
           <div style={s.statPill}><span style={s.statNum}>4</span> Sources</div>
-          <div style={s.statPill}><span style={s.liveDot} />Live Rates</div>
+          <div style={s.statPill} className="live-rates-pill"><span style={s.liveDot} />Live Rates</div>
         </div>
       </div>
     </header>
@@ -103,7 +103,7 @@ function AISearchBar({ onResult }) {
   return (
     <div style={s.aiSearchBar}>
       <div style={s.aiSearchHeader}><span style={s.aiSparkle}>✦</span><span style={s.aiTitle}>Describe what you need in plain language</span></div>
-      <div style={s.aiInputRow}>
+      <div style={s.aiInputRow} className="ai-input-row">
         <input type="text" placeholder='e.g. "I need a packaging machine for spice packets under ₹50 lakh"' value={query} onChange={(e) => setQuery(e.target.value)} onKeyDown={(e) => e.key === "Enter" && handleSearch()} style={s.aiInput} />
         <button onClick={handleSearch} style={s.aiGoButton} disabled={loading}>{loading ? "Searching..." : "Find Machines →"}</button>
       </div>
@@ -114,7 +114,7 @@ function AISearchBar({ onResult }) {
 
 function CategoryBar({ selected, setSelected }) {
   return (
-    <div style={s.categoryBar}>
+    <div style={s.categoryBar} className="category-bar">
       {CATEGORIES.map((cat) => (
         <button key={cat.id} onClick={() => setSelected(cat.id)} style={{ ...s.categoryPill, ...(selected === cat.id ? s.categoryPillActive : {}) }}><span>{cat.icon}</span> {cat.label}</button>
       ))}
@@ -124,26 +124,26 @@ function CategoryBar({ selected, setSelected }) {
 
 function Filters({ priceRange, setPriceRange, yearRange, setYearRange, conditionFilter, setConditionFilter }) {
   return (
-    <div style={s.filtersRow}>
-      <div style={s.filterGroup}>
+    <div style={s.filtersRow} className="filters-row">
+      <div style={s.filterGroup} className="filter-group">
         <label style={s.filterLabel}>Budget (EUR)</label>
-        <div style={s.filterInputs}>
-          <input type="number" placeholder="Min" value={priceRange[0] || ""} onChange={(e) => setPriceRange([Number(e.target.value), priceRange[1]])} style={s.filterInput} />
+        <div style={s.filterInputs} className="filter-inputs">
+          <input type="number" placeholder="Min" value={priceRange[0] || ""} onChange={(e) => setPriceRange([Number(e.target.value), priceRange[1]])} style={s.filterInput} className="filter-input" />
           <span style={s.filterDash}>-</span>
-          <input type="number" placeholder="Max" value={priceRange[1] || ""} onChange={(e) => setPriceRange([priceRange[0], Number(e.target.value)])} style={s.filterInput} />
+          <input type="number" placeholder="Max" value={priceRange[1] || ""} onChange={(e) => setPriceRange([priceRange[0], Number(e.target.value)])} style={s.filterInput} className="filter-input" />
         </div>
       </div>
-      <div style={s.filterGroup}>
+      <div style={s.filterGroup} className="filter-group">
         <label style={s.filterLabel}>Year</label>
-        <div style={s.filterInputs}>
-          <input type="number" placeholder="From" value={yearRange[0] || ""} onChange={(e) => setYearRange([Number(e.target.value), yearRange[1]])} style={s.filterInput} />
+        <div style={s.filterInputs} className="filter-inputs">
+          <input type="number" placeholder="From" value={yearRange[0] || ""} onChange={(e) => setYearRange([Number(e.target.value), yearRange[1]])} style={s.filterInput} className="filter-input" />
           <span style={s.filterDash}>-</span>
-          <input type="number" placeholder="To" value={yearRange[1] || ""} onChange={(e) => setYearRange([yearRange[0], Number(e.target.value)])} style={s.filterInput} />
+          <input type="number" placeholder="To" value={yearRange[1] || ""} onChange={(e) => setYearRange([yearRange[0], Number(e.target.value)])} style={s.filterInput} className="filter-input" />
         </div>
       </div>
-      <div style={s.filterGroup}>
+      <div style={s.filterGroup} className="filter-group">
         <label style={s.filterLabel}>Condition</label>
-        <div style={s.conditionButtons}>
+        <div style={s.conditionButtons} className="condition-buttons">
           {CONDITIONS.map((c) => (
             <button key={c} onClick={() => setConditionFilter(conditionFilter === c ? null : c)} style={{ ...s.conditionBtn, ...(conditionFilter === c ? s.conditionBtnActive : {}) }}>{c}</button>
           ))}
@@ -159,7 +159,7 @@ function MachineCard({ machine, onSelect, isHighlighted }) {
   const conditionColor = machine.condition === "Excellent" ? "var(--excellent)" : machine.condition === "Good" ? "var(--good)" : "var(--fair)";
   return (
     <div style={{ ...s.card, ...(isHighlighted ? s.cardHighlighted : {}) }} onClick={() => onSelect(machine)}>
-      <div style={s.cardImageArea}>
+      <div style={s.cardImageArea} className="card-image-area">
         <MachineImage src={machine.imageUrl} fallback={machine.image} />
         <div style={s.cardSource}>{machine.source}</div>
       </div>
@@ -173,7 +173,7 @@ function MachineCard({ machine, onSelect, isHighlighted }) {
         <div style={s.cardSpecs}>
           {Object.entries(machine.specs).slice(0, 2).map(([k, v]) => (<span key={k} style={s.specChip}>{v}</span>))}
         </div>
-        <div style={s.cardPricing}>
+        <div style={s.cardPricing} className="card-pricing">
           <div>
             {hasPrice ? (
               <>
@@ -184,7 +184,7 @@ function MachineCard({ machine, onSelect, isHighlighted }) {
               <div style={s.priceEUR}>Price on request</div>
             )}
           </div>
-          {hasPrice && <button style={s.calcButton}>Calculate Landed Cost →</button>}
+          {hasPrice && <button style={s.calcButton} className="calc-button">Calculate Landed Cost →</button>}
         </div>
       </div>
     </div>
@@ -197,9 +197,9 @@ function MachineDetail({ machine, onClose }) {
   const landed = hasPrice ? calculateLandedCost(machine.price, selectedPort, machine.customsDuty) : null;
   return (
     <div style={s.overlay} onClick={onClose}>
-      <div style={s.detailPanel} onClick={(e) => e.stopPropagation()}>
+      <div style={s.detailPanel} className="detail-panel" onClick={(e) => e.stopPropagation()}>
         <button style={s.closeBtn} onClick={onClose}>✕</button>
-        <div style={s.detailImageArea}>
+        <div style={s.detailImageArea} className="detail-image-area">
           <MachineImage src={machine.imageUrl} fallback={machine.image} style={{ borderRadius: "var(--radius)" }} />
         </div>
         <div style={s.detailHeader}>
@@ -243,7 +243,7 @@ function MachineDetail({ machine, onClose }) {
             <p style={{ color: "var(--muted-foreground)", fontSize: "0.9rem" }}>Price not available — contact seller for a quote to calculate landed costs.</p>
           </div>
         )}
-        <div style={s.actionRow}>
+        <div style={s.actionRow} className="action-row">
           <button style={s.primaryAction}>Request Detailed Quote</button>
           <button style={s.secondaryAction}>Schedule Video Inspection</button>
         </div>
@@ -278,20 +278,20 @@ function Pagination({ currentPage, totalPages, onPageChange }) {
   };
 
   return (
-    <div style={s.pagination}>
-      <button style={{ ...s.pageBtn, ...(currentPage === 1 ? s.pageBtnDisabled : {}) }} onClick={() => onPageChange(currentPage - 1)} disabled={currentPage === 1}>
+    <div style={s.pagination} className="pagination">
+      <button style={{ ...s.pageBtn, ...(currentPage === 1 ? s.pageBtnDisabled : {}) }} onClick={() => onPageChange(currentPage - 1)} disabled={currentPage === 1} className="page-btn">
         ← Prev
       </button>
       {getPages().map((p, i) =>
         p === "..." ? (
           <span key={`dots-${i}`} style={s.pageDots}>...</span>
         ) : (
-          <button key={p} style={{ ...s.pageBtn, ...(p === currentPage ? s.pageBtnActive : {}) }} onClick={() => onPageChange(p)}>
+          <button key={p} style={{ ...s.pageBtn, ...(p === currentPage ? s.pageBtnActive : {}) }} onClick={() => onPageChange(p)} className="page-btn">
             {p}
           </button>
         )
       )}
-      <button style={{ ...s.pageBtn, ...(currentPage === totalPages ? s.pageBtnDisabled : {}) }} onClick={() => onPageChange(currentPage + 1)} disabled={currentPage === totalPages}>
+      <button style={{ ...s.pageBtn, ...(currentPage === totalPages ? s.pageBtnDisabled : {}) }} onClick={() => onPageChange(currentPage + 1)} disabled={currentPage === totalPages} className="page-btn">
         Next →
       </button>
     </div>
@@ -301,7 +301,7 @@ function Pagination({ currentPage, totalPages, onPageChange }) {
 function Footer() {
   return (
     <footer style={s.footer}>
-      <div style={s.footerInner}>
+      <div style={s.footerInner} className="footer-inner">
         <div style={s.footerCol}>
           <div style={s.footerLogo}><div style={s.logoMarkSmall}>MB</div><span style={s.footerBrand}>MachinesBridge</span></div>
           <p style={s.footerText}>Bridging German engineering with Indian manufacturing. Quality machines, transparent pricing, end-to-end support.</p>
@@ -378,7 +378,7 @@ export default function MachinesBridge() {
           <span style={s.resultsCount}>{sorted.length} machines found{totalPages > 1 ? ` · Page ${safePage} of ${totalPages}` : ""}</span>
           {aiHighlightIds.length > 0 && <button onClick={() => setAiHighlightIds([])} style={s.clearAI}>Clear AI ranking ✕</button>}
         </div>
-        <div style={s.grid}>
+        <div style={s.grid} className="machines-grid">
           {paged.map((m) => (<MachineCard key={m.id} machine={m} onSelect={setSelectedMachine} isHighlighted={aiHighlightIds.includes(m.id)} />))}
         </div>
         {sorted.length === 0 && (
