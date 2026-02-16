@@ -5,16 +5,16 @@ const EXCHANGE_RATE_EUR_INR = 89.5;
 const ITEMS_PER_PAGE = 24;
 
 const CATEGORIES = [
-  { id: "all", label: "All Machines", icon: "\u2699\uFE0F" },
-  { id: "filling", label: "Filling & Dosing", icon: "\uD83E\uDED9" },
-  { id: "packaging", label: "Packaging", icon: "\uD83D\uDCE6" },
-  { id: "mixing", label: "Mixing & Blending", icon: "\uD83D\uDD04" },
-  { id: "bakery", label: "Bakery Equipment", icon: "\uD83C\uDF5E" },
-  { id: "dairy", label: "Dairy Processing", icon: "\uD83E\uDD5B" },
-  { id: "meat", label: "Meat Processing", icon: "\uD83E\uDD69" },
-  { id: "beverage", label: "Beverage", icon: "\uD83E\uDD64" },
-  { id: "printing", label: "Printing", icon: "\uD83D\uDDA8\uFE0F" },
-  { id: "paper", label: "Paper & Pulp", icon: "\uD83D\uDCC4" },
+  { id: "all", label: "All Machines" },
+  { id: "filling", label: "Filling & Dosing" },
+  { id: "packaging", label: "Packaging" },
+  { id: "mixing", label: "Mixing & Blending" },
+  { id: "bakery", label: "Bakery Equipment" },
+  { id: "dairy", label: "Dairy Processing" },
+  { id: "meat", label: "Meat Processing" },
+  { id: "beverage", label: "Beverage" },
+  { id: "printing", label: "Printing" },
+  { id: "paper", label: "Paper & Pulp" },
 ];
 
 const CONDITIONS = ["Excellent", "Like New", "Good", "Fair"];
@@ -63,18 +63,14 @@ function Header({ searchQuery, setSearchQuery, showAISearch, setShowAISearch, to
     <header style={s.header}>
       <div style={s.headerInner} className="header-inner">
         <div style={s.logoArea}>
-          <div style={s.logoMark}>MB</div>
-          <div>
-            <h1 style={s.logoText}>MachinesBridge</h1>
-            <p style={s.tagline}>German Machines → Indian Factories</p>
-          </div>
+          <img src="/logo.png" alt="MachinesBridge" style={s.logoImg} />
         </div>
         <div style={s.searchArea} className="search-area">
           <div style={s.searchBox}>
             <span style={s.searchIcon}>⌕</span>
             <input type="text" placeholder="Search machines, brands, categories..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} style={s.searchInput} />
+            <button style={{ ...s.aiButtonInline, ...(showAISearch ? s.aiButtonInlineActive : {}) }} onClick={() => setShowAISearch(!showAISearch)}>✦ AI Search</button>
           </div>
-          <button style={{ ...s.aiButton, ...(showAISearch ? s.aiButtonActive : {}) }} onClick={() => setShowAISearch(!showAISearch)}>✦ AI Search</button>
         </div>
         <div style={s.headerStats} className="header-stats">
           <div style={s.statPill}><span style={s.statNum}>{totalCount}</span> Machines</div>
@@ -118,7 +114,7 @@ function CategoryBar({ selected, setSelected }) {
   return (
     <div style={s.categoryBar} className="category-bar">
       {CATEGORIES.map((cat) => (
-        <button key={cat.id} onClick={() => setSelected(cat.id)} style={{ ...s.categoryPill, ...(selected === cat.id ? s.categoryPillActive : {}) }}><span>{cat.icon}</span> {cat.label}</button>
+        <button key={cat.id} onClick={() => setSelected(cat.id)} style={{ ...s.categoryPill, ...(selected === cat.id ? s.categoryPillActive : {}) }}>{cat.label}</button>
       ))}
     </div>
   );
@@ -156,38 +152,38 @@ function Filters({ priceRange, setPriceRange, yearRange, setYearRange, condition
 }
 
 function MachineCard({ machine, onSelect, isHighlighted }) {
+  const [hovered, setHovered] = useState(false);
   const hasPrice = machine.price != null;
   const estimatedINR = hasPrice ? machine.price * EXCHANGE_RATE_EUR_INR : null;
-  const conditionColor = machine.condition === "Excellent" ? "var(--excellent)" : machine.condition === "Like New" ? "var(--excellent)" : machine.condition === "Good" ? "var(--good)" : "var(--fair)";
+  const conditionColor = machine.condition === "Excellent" || machine.condition === "Like New" ? "var(--excellent)" : machine.condition === "Good" ? "var(--good)" : "var(--fair)";
+  const specsText = Object.values(machine.specs).slice(0, 2).join(" · ");
   return (
-    <div style={{ ...s.card, ...(isHighlighted ? s.cardHighlighted : {}) }} onClick={() => onSelect(machine)}>
+    <div style={{ ...s.card, ...(hovered ? s.cardHovered : {}), ...(isHighlighted ? s.cardHighlighted : {}) }} onClick={() => onSelect(machine)} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
       <div style={s.cardImageArea} className="card-image-area">
         <MachineImage src={machine.imageUrl} fallback={machine.image} />
+        <div style={s.cardImageGradient} />
+        <div style={{ ...s.cardConditionOverlay, backgroundColor: conditionColor }}>{machine.condition}</div>
         <div style={s.cardSource}>{machine.source}</div>
       </div>
       <div style={s.cardBody}>
-        <div style={s.cardMeta}>
-          <span style={{ ...s.conditionBadge, backgroundColor: conditionColor, color: "var(--primary-foreground)" }}>{machine.condition}</span>
-          {machine.year && <span style={s.yearBadge}>{machine.year}</span>}
-        </div>
         <h3 style={s.cardTitle}>{machine.name}</h3>
-        <p style={s.cardBrand}>{machine.brand} · {machine.location}</p>
-        <div style={s.cardSpecs}>
-          {Object.entries(machine.specs).slice(0, 2).map(([k, v]) => (<span key={k} style={s.specChip}>{v}</span>))}
-        </div>
+        <p style={s.cardBrand}>{machine.brand} · {machine.location}{machine.year ? ` · ${machine.year}` : ""}</p>
+        {specsText && <div style={s.cardSpecs}>{specsText}</div>}
         <div style={s.cardPricing} className="card-pricing">
-          <div>
-            {hasPrice ? (
-              <>
-                <div style={s.priceEUR}>{formatEUR(machine.price)}</div>
-                <div style={s.priceINR}>≈ {formatINR(estimatedINR)}</div>
-              </>
-            ) : (
-              <div style={s.priceEUR}>Price on request</div>
-            )}
-          </div>
-          {hasPrice && <button style={s.calcButton} className="calc-button">Calculate Landed Cost →</button>}
+          {hasPrice ? (
+            <>
+              <div style={s.priceEUR}>{formatEUR(machine.price)}</div>
+              <div style={s.priceINR}>approx. {formatINR(estimatedINR)}</div>
+            </>
+          ) : (
+            <div style={s.priceOnRequest}>Price on request</div>
+          )}
         </div>
+        {hasPrice ? (
+          <button style={s.calcButton} className="calc-button" onClick={(e) => e.stopPropagation()}>Calculate Landed Cost</button>
+        ) : (
+          <button style={s.ctaRequestQuote} className="calc-button" onClick={(e) => e.stopPropagation()}>Request Quote</button>
+        )}
       </div>
     </div>
   );
@@ -306,7 +302,7 @@ function Footer() {
     <footer style={s.footer}>
       <div style={s.footerInner} className="footer-inner">
         <div style={s.footerCol}>
-          <div style={s.footerLogo}><div style={s.logoMarkSmall}>MB</div><span style={s.footerBrand}>MachinesBridge</span></div>
+          <div style={s.footerLogo}><img src="/logo.png" alt="MachinesBridge" style={s.footerLogoImg} /></div>
           <p style={s.footerText}>Bridging German engineering with Indian manufacturing. Quality machines, transparent pricing, end-to-end support.</p>
         </div>
         <div style={s.footerCol}>
@@ -404,16 +400,14 @@ const s = {
   // Header
   header: { background: "var(--header-bg)", borderBottom: "3px solid var(--primary)", position: "sticky", top: 0, zIndex: 100 },
   headerInner: { maxWidth: "1280px", margin: "0 auto", padding: "1rem 1.5rem", display: "flex", alignItems: "center", gap: "2rem", flexWrap: "wrap" },
-  logoArea: { display: "flex", alignItems: "center", gap: "0.75rem", flexShrink: 0 },
-  logoMark: { width: "42px", height: "42px", background: "var(--accent)", borderRadius: "var(--radius)", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "var(--font-mono)", fontWeight: 700, fontSize: "1rem", color: "var(--accent-foreground)" },
-  logoText: { fontFamily: "var(--font-mono)", fontSize: "1.25rem", fontWeight: 700, color: "var(--header-fg)", lineHeight: 1.1 },
-  tagline: { fontSize: "0.7rem", color: "var(--accent)", fontWeight: 500, letterSpacing: "0.05em" },
+  logoArea: { display: "flex", alignItems: "center", flexShrink: 0 },
+  logoImg: { height: "52px", width: "auto", objectFit: "contain" },
   searchArea: { flex: 1, display: "flex", gap: "0.5rem", minWidth: "280px" },
   searchBox: { flex: 1, position: "relative" },
-  searchIcon: { position: "absolute", left: "12px", top: "50%", transform: "translateY(-50%)", fontSize: "1.1rem", color: "var(--header-stat-fg)" },
-  searchInput: { width: "100%", padding: "0.65rem 1rem 0.65rem 2.25rem", border: "2px solid var(--header-input-border)", borderRadius: "var(--radius)", background: "var(--header-input-bg)", color: "var(--header-fg)", fontSize: "0.9rem", fontFamily: "var(--font-sans)" },
-  aiButton: { padding: "0.65rem 1rem", background: "transparent", border: "2px solid var(--accent)", borderRadius: "var(--radius)", color: "var(--accent)", fontFamily: "var(--font-sans)", fontWeight: 600, fontSize: "0.85rem", cursor: "pointer", whiteSpace: "nowrap", transition: "all 0.2s" },
-  aiButtonActive: { background: "var(--accent)", color: "var(--accent-foreground)" },
+  searchIcon: { position: "absolute", left: "12px", top: "50%", transform: "translateY(-50%)", fontSize: "1.5rem", color: "var(--muted-foreground)" },
+  searchInput: { width: "100%", padding: "0.75rem 7.5rem 0.75rem 2.5rem", border: "2px solid var(--header-input-border)", borderRadius: "var(--radius)", background: "var(--header-input-bg)", color: "var(--foreground)", fontSize: "0.9rem", fontFamily: "var(--font-sans)" },
+  aiButtonInline: { position: "absolute", right: "5px", top: "50%", transform: "translateY(-50%)", padding: "0.4rem 0.75rem", background: "transparent", border: "1.5px solid var(--primary)", borderRadius: "calc(var(--radius) - 2px)", color: "var(--primary)", fontFamily: "var(--font-sans)", fontWeight: 600, fontSize: "0.75rem", cursor: "pointer", whiteSpace: "nowrap", transition: "all 0.2s" },
+  aiButtonInlineActive: { background: "var(--primary)", color: "var(--primary-foreground)" },
   headerStats: { display: "flex", gap: "0.75rem", flexShrink: 0, alignItems: "center" },
   statPill: { display: "flex", alignItems: "center", gap: "0.35rem", padding: "0.35rem 0.75rem", background: "var(--header-stat-bg)", borderRadius: "20px", fontSize: "0.75rem", color: "var(--header-stat-fg)", fontWeight: 500 },
   statNum: { color: "var(--accent)", fontFamily: "var(--font-mono)", fontWeight: 700 },
@@ -435,7 +429,7 @@ const s = {
 
   // Categories
   categoryBar: { display: "flex", gap: "0.5rem", overflowX: "auto", paddingBottom: "0.5rem", marginBottom: "1rem" },
-  categoryPill: { padding: "0.5rem 1rem", background: "var(--secondary)", border: "2px solid transparent", borderRadius: "24px", fontFamily: "var(--font-sans)", fontSize: "0.8rem", fontWeight: 500, color: "var(--secondary-foreground)", cursor: "pointer", whiteSpace: "nowrap", display: "flex", alignItems: "center", gap: "0.35rem", transition: "all 0.2s" },
+  categoryPill: { padding: "0.5rem 1rem", background: "var(--muted)", border: "1px solid var(--border)", borderRadius: "var(--radius)", fontFamily: "var(--font-sans)", fontSize: "0.8rem", fontWeight: 500, color: "var(--foreground)", cursor: "pointer", whiteSpace: "nowrap", display: "flex", alignItems: "center", gap: "0.35rem", transition: "all 0.2s" },
   categoryPillActive: { background: "var(--primary)", color: "var(--primary-foreground)", borderColor: "var(--ring)" },
 
   // Filters
@@ -456,22 +450,23 @@ const s = {
 
   // Grid & Cards
   grid: { display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(340px, 1fr))", gap: "1.25rem" },
-  card: { background: "var(--card)", borderRadius: "calc(var(--radius) + 4px)", overflow: "hidden", border: "1px solid var(--border)", cursor: "pointer", transition: "all 0.25s ease", boxShadow: "var(--shadow-sm)" },
-  cardHighlighted: { border: "2px solid var(--ring)", boxShadow: "var(--shadow-lg)" },
-  cardImageArea: { height: "180px", background: "var(--muted)", display: "flex", alignItems: "center", justifyContent: "center", position: "relative", overflow: "hidden" },
-  cardSource: { position: "absolute", top: "8px", right: "8px", padding: "3px 8px", background: "var(--primary)", borderRadius: "calc(var(--radius) - 2px)", color: "var(--primary-foreground)", fontSize: "0.65rem", fontWeight: 600, fontFamily: "var(--font-mono)" },
-  cardBody: { padding: "1rem 1.25rem 1.25rem" },
-  cardMeta: { display: "flex", gap: "0.5rem", marginBottom: "0.5rem" },
-  conditionBadge: { padding: "2px 8px", borderRadius: "calc(var(--radius) - 2px)", fontSize: "0.7rem", fontWeight: 600 },
-  yearBadge: { padding: "2px 8px", background: "var(--muted)", borderRadius: "calc(var(--radius) - 2px)", fontSize: "0.7rem", fontWeight: 600, color: "var(--muted-foreground)", fontFamily: "var(--font-mono)" },
-  cardTitle: { fontSize: "0.95rem", fontWeight: 700, lineHeight: 1.3, color: "var(--card-foreground)", marginBottom: "0.25rem" },
-  cardBrand: { fontSize: "0.78rem", color: "var(--muted-foreground)", marginBottom: "0.75rem" },
-  cardSpecs: { display: "flex", gap: "0.35rem", flexWrap: "wrap", marginBottom: "0.75rem" },
-  specChip: { padding: "3px 8px", background: "var(--muted)", borderRadius: "calc(var(--radius) - 2px)", fontSize: "0.7rem", color: "var(--muted-foreground)", fontFamily: "var(--font-mono)" },
-  cardPricing: { display: "flex", justifyContent: "space-between", alignItems: "flex-end", borderTop: "1px solid var(--border)", paddingTop: "0.75rem" },
-  priceEUR: { fontFamily: "var(--font-mono)", fontWeight: 700, fontSize: "1.1rem", color: "var(--secondary-foreground)" },
-  priceINR: { fontSize: "0.78rem", color: "var(--muted-foreground)", fontFamily: "var(--font-mono)" },
-  calcButton: { padding: "0.4rem 0.75rem", background: "var(--primary)", border: "none", borderRadius: "calc(var(--radius) - 2px)", color: "var(--primary-foreground)", fontSize: "0.72rem", fontWeight: 600, cursor: "pointer", fontFamily: "var(--font-sans)" },
+  card: { background: "var(--card)", borderRadius: "calc(var(--radius) + 4px)", overflow: "hidden", border: "1px solid transparent", cursor: "pointer", transition: "transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease" },
+  cardHovered: { transform: "translateY(-3px)", boxShadow: "var(--shadow-lg)" },
+  cardHighlighted: { borderColor: "var(--ring)", boxShadow: "var(--shadow-lg)" },
+  cardImageArea: { height: "220px", background: "var(--muted)", position: "relative", overflow: "hidden" },
+  cardImageGradient: { position: "absolute", bottom: 0, left: 0, right: 0, height: "50%", background: "linear-gradient(to top, rgba(0,0,0,0.2) 0%, transparent 100%)", pointerEvents: "none", zIndex: 1 },
+  cardConditionOverlay: { position: "absolute", top: "10px", left: "10px", padding: "3px 9px", borderRadius: "4px", fontSize: "0.62rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.06em", color: "#fff", zIndex: 2 },
+  cardSource: { position: "absolute", top: "10px", right: "10px", padding: "4px 10px", background: "rgba(0,0,0,0.55)", backdropFilter: "blur(4px)", borderRadius: "20px", color: "#fff", fontSize: "0.65rem", fontWeight: 600, fontFamily: "var(--font-mono)", letterSpacing: "0.02em", zIndex: 2 },
+  cardBody: { padding: "0.875rem 1rem 1rem", display: "flex", flexDirection: "column", gap: "0.25rem" },
+  cardTitle: { fontSize: "1.05rem", fontWeight: 700, lineHeight: 1.35, color: "var(--card-foreground)", marginBottom: "0.1rem", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" },
+  cardBrand: { fontSize: "0.8rem", color: "var(--muted-foreground)", marginBottom: "0.35rem", lineHeight: 1.4 },
+  cardSpecs: { fontSize: "0.73rem", color: "var(--muted-foreground)", fontFamily: "var(--font-mono)", marginBottom: "0.25rem", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" },
+  cardPricing: { display: "flex", flexDirection: "column", gap: "0.1rem", marginTop: "auto", paddingTop: "0.5rem" },
+  priceEUR: { fontFamily: "var(--font-mono)", fontWeight: 900, fontSize: "1.2rem", color: "var(--card-foreground)", letterSpacing: "-0.01em" },
+  priceINR: { fontSize: "0.73rem", color: "var(--muted-foreground)", fontFamily: "var(--font-mono)", fontWeight: 400 },
+  priceOnRequest: { fontFamily: "var(--font-sans)", fontWeight: 600, fontSize: "0.92rem", color: "var(--muted-foreground)", fontStyle: "italic", padding: "0.3rem 0" },
+  calcButton: { width: "100%", padding: "0.6rem 1rem", background: "var(--primary)", border: "none", borderRadius: "var(--radius)", color: "var(--primary-foreground)", fontSize: "0.82rem", fontWeight: 700, cursor: "pointer", fontFamily: "var(--font-sans)", marginTop: "0.65rem", transition: "opacity 0.15s ease", letterSpacing: "0.01em" },
+  ctaRequestQuote: { width: "100%", padding: "0.6rem 1rem", background: "transparent", border: "2px solid var(--primary)", borderRadius: "var(--radius)", color: "var(--primary)", fontSize: "0.82rem", fontWeight: 700, cursor: "pointer", fontFamily: "var(--font-sans)", marginTop: "0.65rem", transition: "background 0.15s ease, color 0.15s ease" },
 
   // Pagination
   pagination: { display: "flex", justifyContent: "center", alignItems: "center", gap: "0.5rem", marginTop: "2rem", paddingBottom: "1rem" },
@@ -516,9 +511,8 @@ const s = {
   footer: { background: "var(--header-bg)", borderTop: "3px solid var(--primary)", marginTop: "3rem", padding: "2.5rem 1.5rem" },
   footerInner: { maxWidth: "1280px", margin: "0 auto", display: "grid", gridTemplateColumns: "2fr 1fr 1fr", gap: "2rem" },
   footerCol: {},
-  footerLogo: { display: "flex", alignItems: "center", gap: "0.5rem", marginBottom: "0.75rem" },
-  logoMarkSmall: { width: "28px", height: "28px", background: "var(--accent)", borderRadius: "calc(var(--radius) - 2px)", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "var(--font-mono)", fontWeight: 700, fontSize: "0.7rem", color: "var(--accent-foreground)" },
-  footerBrand: { fontFamily: "var(--font-mono)", fontWeight: 700, color: "var(--header-fg)", fontSize: "0.95rem" },
+  footerLogo: { display: "flex", alignItems: "center", marginBottom: "0.75rem" },
+  footerLogoImg: { height: "40px", width: "auto", objectFit: "contain" },
   footerText: { fontSize: "0.82rem", color: "var(--header-stat-fg)", lineHeight: 1.6 },
   footerHeading: { fontSize: "0.75rem", fontWeight: 700, color: "var(--accent)", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: "0.75rem" },
   footerLink: { fontSize: "0.82rem", color: "var(--header-stat-fg)", marginBottom: "0.5rem", cursor: "pointer" },
