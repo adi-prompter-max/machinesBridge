@@ -67,8 +67,10 @@ function Header({ searchQuery, setSearchQuery, showAISearch, setShowAISearch, to
         </div>
         <div style={s.searchArea} className="search-area">
           <div style={s.searchBox} className="search-box">
-            <span style={s.searchIcon}>⌕</span>
-            <input type="text" placeholder="Search machines, brands, categories..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} style={s.searchInput} className="search-input" />
+            <div style={s.searchInputWrap}>
+              <span style={s.searchIcon}>⌕</span>
+              <input type="text" placeholder="Search machines, brands, categories..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} style={s.searchInput} className="search-input" />
+            </div>
             <button style={{ ...s.aiButtonInline, ...(showAISearch ? s.aiButtonInlineActive : {}) }} className="ai-btn-inline" onClick={() => setShowAISearch(!showAISearch)}>✦ AI Search</button>
           </div>
         </div>
@@ -404,6 +406,7 @@ const s = {
   logoImg: { height: "52px", width: "auto", objectFit: "contain" },
   searchArea: { flex: 1, display: "flex", gap: "0.5rem", minWidth: "280px" },
   searchBox: { flex: 1, position: "relative" },
+  searchInputWrap: { position: "relative" },
   searchIcon: { position: "absolute", left: "12px", top: "50%", transform: "translateY(-50%)", fontSize: "1.5rem", color: "var(--muted-foreground)" },
   searchInput: { width: "100%", padding: "0.75rem 7.5rem 0.75rem 2.5rem", border: "2px solid var(--header-input-border)", borderRadius: "var(--radius)", background: "var(--header-input-bg)", color: "var(--foreground)", fontSize: "0.9rem", fontFamily: "var(--font-sans)" },
   aiButtonInline: { position: "absolute", right: "5px", top: "50%", transform: "translateY(-50%)", padding: "0.4rem 0.75rem", background: "transparent", border: "1.5px solid var(--primary)", borderRadius: "calc(var(--radius) - 2px)", color: "var(--primary)", fontFamily: "var(--font-sans)", fontWeight: 600, fontSize: "0.75rem", cursor: "pointer", whiteSpace: "nowrap", transition: "all 0.2s" },
