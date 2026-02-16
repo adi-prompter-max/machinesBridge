@@ -226,8 +226,22 @@ button:focus { outline: none; }
     gap: 0.5rem !important;
   }
 
-  .search-area button {
-    width: 100%;
+  .search-box {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+  }
+
+  .search-input {
+    padding-right: 1rem !important;
+  }
+
+  .ai-btn-inline {
+    position: static !important;
+    transform: none !important;
+    width: 100% !important;
+    padding: 0.55rem 1rem !important;
+    font-size: 0.8rem !important;
   }
 
   .header-stats {

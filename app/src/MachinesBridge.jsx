@@ -66,10 +66,10 @@ function Header({ searchQuery, setSearchQuery, showAISearch, setShowAISearch, to
           <img src="/logo.png" alt="MachinesBridge" style={s.logoImg} />
         </div>
         <div style={s.searchArea} className="search-area">
-          <div style={s.searchBox}>
+          <div style={s.searchBox} className="search-box">
             <span style={s.searchIcon}>⌕</span>
-            <input type="text" placeholder="Search machines, brands, categories..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} style={s.searchInput} />
-            <button style={{ ...s.aiButtonInline, ...(showAISearch ? s.aiButtonInlineActive : {}) }} onClick={() => setShowAISearch(!showAISearch)}>✦ AI Search</button>
+            <input type="text" placeholder="Search machines, brands, categories..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} style={s.searchInput} className="search-input" />
+            <button style={{ ...s.aiButtonInline, ...(showAISearch ? s.aiButtonInlineActive : {}) }} className="ai-btn-inline" onClick={() => setShowAISearch(!showAISearch)}>✦ AI Search</button>
           </div>
         </div>
         <div style={s.headerStats} className="header-stats">
