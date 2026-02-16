@@ -7,23 +7,23 @@
   --card-foreground: oklch(0.23 0 0);
   --popover: oklch(0.98 0 0);
   --popover-foreground: oklch(0.23 0 0);
-  --primary: oklch(0.37 0.14 323.40);
-  --primary-foreground: oklch(1.00 0 0);
-  --secondary: oklch(0.96 0.01 311.36);
-  --secondary-foreground: oklch(0.31 0.11 327.10);
+  --primary: oklch(0.67 0.17 153.85);
+  --primary-foreground: oklch(0.99 0.02 169.99);
+  --secondary: oklch(0.90 0.02 238.66);
+  --secondary-foreground: oklch(0.20 0.02 266.02);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.49 0 0);
-  --accent: oklch(0.88 0.02 323.34);
-  --accent-foreground: oklch(0.31 0.11 327.10);
-  --destructive: oklch(0.59 0.22 11.39);
+  --accent: oklch(0.90 0.02 238.66);
+  --accent-foreground: oklch(0.20 0.02 266.02);
+  --destructive: oklch(0.61 0.24 20.96);
   --border: oklch(0.91 0 0);
   --input: oklch(0.91 0 0);
-  --ring: oklch(0.37 0.14 323.40);
-  --chart-1: oklch(0.31 0.11 327.10);
-  --chart-2: oklch(0.37 0.14 323.40);
-  --chart-3: oklch(0.59 0.22 11.39);
+  --ring: oklch(0.67 0.17 153.85);
+  --chart-1: oklch(0.20 0.02 266.02);
+  --chart-2: oklch(0.67 0.17 153.85);
+  --chart-3: oklch(0.61 0.24 20.96);
   --chart-4: oklch(0.77 0.13 222.66);
-  --chart-5: oklch(0.69 0.14 160.27);
+  --chart-5: oklch(0.80 0.15 82.32);
 
   --font-sans: 'Lato', sans-serif;
   --font-serif: 'Merriweather', serif;
@@ -43,10 +43,10 @@
   /* Semantic aliases for the component */
   --header-bg: var(--primary);
   --header-fg: var(--primary-foreground);
-  --header-input-bg: oklch(0.28 0.12 323.40);
-  --header-input-border: oklch(0.45 0.12 323.40);
-  --header-stat-bg: oklch(0.30 0.12 323.40);
-  --header-stat-fg: oklch(0.70 0.04 323.40);
+  --header-input-bg: oklch(0.55 0.14 153.85);
+  --header-input-border: oklch(0.78 0.10 153.85);
+  --header-stat-bg: oklch(0.56 0.14 153.85);
+  --header-stat-fg: oklch(0.95 0.02 153.85);
   --excellent: oklch(0.69 0.14 160.27);
   --good: oklch(0.80 0.15 82.32);
   --fair: var(--destructive);
@@ -59,22 +59,22 @@
   --card-foreground: oklch(0.93 0 0);
   --popover: oklch(0.26 0.01 260.70);
   --popover-foreground: oklch(0.93 0 0);
-  --primary: oklch(0.58 0.14 327.21);
-  --primary-foreground: oklch(1.00 0 0);
-  --secondary: oklch(0.30 0.01 254.00);
+  --primary: oklch(0.67 0.17 153.85);
+  --primary-foreground: oklch(0.99 0.02 169.99);
+  --secondary: oklch(0.30 0.02 238.66);
   --secondary-foreground: oklch(0.93 0 0);
   --muted: oklch(0.26 0.01 260.70);
   --muted-foreground: oklch(0.68 0 0);
-  --accent: oklch(0.33 0.03 326.28);
+  --accent: oklch(0.33 0.04 153.85);
   --accent-foreground: oklch(0.93 0 0);
-  --destructive: oklch(0.59 0.22 11.39);
+  --destructive: oklch(0.61 0.24 20.96);
   --border: oklch(0.30 0.01 268.37);
   --input: oklch(0.30 0.01 268.37);
-  --ring: oklch(0.58 0.14 327.21);
-  --chart-1: oklch(0.58 0.14 327.21);
+  --ring: oklch(0.67 0.17 153.85);
+  --chart-1: oklch(0.67 0.17 153.85);
   --chart-2: oklch(0.77 0.13 222.66);
   --chart-3: oklch(0.69 0.14 160.27);
-  --chart-4: oklch(0.59 0.22 11.39);
+  --chart-4: oklch(0.61 0.24 20.96);
   --chart-5: oklch(0.80 0.15 82.32);
 
   --shadow-2xs: 0 1px 3px 0px oklch(0.00 0 0 / 0.05);
@@ -278,14 +278,55 @@ input:focus, select:focus, button:focus { outline: none; }
     padding: 0.5rem !important;
   }
 
-  /* Detail panel */
+  /* Detail panel — full-screen takeover on mobile */
   .detail-panel {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: 100vh !important;
+    height: 100dvh !important;
     padding: 1rem !important;
+    padding-top: 3rem !important;
+    box-sizing: border-box !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch;
   }
 
   .detail-image-area {
-    height: 160px !important;
+    height: 180px !important;
     margin-bottom: 1rem !important;
+  }
+
+  .detail-title {
+    font-size: 1.05rem !important;
+    word-break: break-word !important;
+  }
+
+  /* Specs grid — single column on mobile */
+  .specs-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.5rem !important;
+  }
+
+  /* Landed cost section */
+  .landed-cost-section {
+    padding: 1rem !important;
+  }
+
+  /* Port selector — stack on mobile */
+  .port-selector {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.4rem !important;
+  }
+
+  /* Cost rows — tighter on mobile */
+  .cost-row {
+    font-size: 0.78rem !important;
+    gap: 0.5rem !important;
+  }
+
+  .cost-row span {
+    word-break: break-word !important;
   }
 
   /* Action row - stack buttons */
@@ -296,6 +337,7 @@ input:focus, select:focus, button:focus { outline: none; }
 
   .action-row button {
     width: 100%;
+    font-size: 0.85rem !important;
   }
 
   /* Footer - single column */
@@ -344,9 +386,23 @@ input:focus, select:focus, button:focus { outline: none; }
 
   .detail-panel {
     padding: 0.75rem !important;
+    padding-top: 2.75rem !important;
+  }
+
+  .detail-title {
+    font-size: 0.95rem !important;
   }
 
   .detail-image-area {
     height: 140px !important;
+  }
+
+  .cost-row {
+    font-size: 0.72rem !important;
+  }
+
+  .action-row button {
+    font-size: 0.8rem !important;
+    padding: 0.7rem !important;
   }
 }

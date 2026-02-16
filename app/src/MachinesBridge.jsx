@@ -13,9 +13,11 @@ const CATEGORIES = [
   { id: "dairy", label: "Dairy Processing", icon: "\uD83E\uDD5B" },
   { id: "meat", label: "Meat Processing", icon: "\uD83E\uDD69" },
   { id: "beverage", label: "Beverage", icon: "\uD83E\uDD64" },
+  { id: "printing", label: "Printing", icon: "\uD83D\uDDA8\uFE0F" },
+  { id: "paper", label: "Paper & Pulp", icon: "\uD83D\uDCC4" },
 ];
 
-const CONDITIONS = ["Excellent", "Good", "Fair"];
+const CONDITIONS = ["Excellent", "Like New", "Good", "Fair"];
 
 const INDIAN_PORTS = [
   { name: "Nhava Sheva (Mumbai)", freight: 2800 },
@@ -76,7 +78,7 @@ function Header({ searchQuery, setSearchQuery, showAISearch, setShowAISearch, to
         </div>
         <div style={s.headerStats} className="header-stats">
           <div style={s.statPill}><span style={s.statNum}>{totalCount}</span> Machines</div>
-          <div style={s.statPill}><span style={s.statNum}>4</span> Sources</div>
+          <div style={s.statPill}><span style={s.statNum}>2</span> Sources</div>
           <div style={s.statPill} className="live-rates-pill"><span style={s.liveDot} />Live Rates</div>
         </div>
       </div>
@@ -156,7 +158,7 @@ function Filters({ priceRange, setPriceRange, yearRange, setYearRange, condition
 function MachineCard({ machine, onSelect, isHighlighted }) {
   const hasPrice = machine.price != null;
   const estimatedINR = hasPrice ? machine.price * EXCHANGE_RATE_EUR_INR : null;
-  const conditionColor = machine.condition === "Excellent" ? "var(--excellent)" : machine.condition === "Good" ? "var(--good)" : "var(--fair)";
+  const conditionColor = machine.condition === "Excellent" ? "var(--excellent)" : machine.condition === "Like New" ? "var(--excellent)" : machine.condition === "Good" ? "var(--good)" : "var(--fair)";
   return (
     <div style={{ ...s.card, ...(isHighlighted ? s.cardHighlighted : {}) }} onClick={() => onSelect(machine)}>
       <div style={s.cardImageArea} className="card-image-area">
@@ -204,20 +206,21 @@ function MachineDetail({ machine, onClose }) {
         </div>
         <div style={s.detailHeader}>
           <div>
-            <h2 style={s.detailTitle}>{machine.name}</h2>
+            <h2 style={s.detailTitle} className="detail-title">{machine.name}</h2>
             <p style={s.detailSub}>{machine.brand} · {machine.year || "N/A"} · {machine.condition} · {machine.location}</p>
           </div>
         </div>
         <p style={s.detailDesc}>{machine.description}</p>
-        <div style={s.specsGrid}>
+        <div style={s.specsGrid} className="specs-grid">
           {Object.entries(machine.specs).map(([k, v]) => (<div key={k} style={s.specItem}><div style={s.specLabel}>{k}</div><div style={s.specValue}>{v}</div></div>))}
           <div style={s.specItem}><div style={s.specLabel}>HS Code</div><div style={s.specValue}>{machine.hsCode}</div></div>
           <div style={s.specItem}><div style={s.specLabel}>Source</div><div style={s.specValue}>{machine.source}</div></div>
+          {machine.url && <div style={s.specItem}><div style={s.specLabel}>Listing</div><div style={s.specValue}><a href={machine.url} target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)", textDecoration: "underline" }}>View Original →</a></div></div>}
         </div>
         {hasPrice && landed ? (
-          <div style={s.landedCostSection}>
+          <div style={s.landedCostSection} className="landed-cost-section">
             <h3 style={s.landedTitle}>Landed Cost Estimator</h3>
-            <div style={s.portSelector}>
+            <div style={s.portSelector} className="port-selector">
               <label style={s.portLabel}>Destination Port:</label>
               <select value={selectedPort.name} onChange={(e) => setSelectedPort(INDIAN_PORTS.find((p) => p.name === e.target.value))} style={s.portSelect}>
                 {INDIAN_PORTS.map((p) => (<option key={p.name} value={p.name}>{p.name}</option>))}
@@ -244,8 +247,8 @@ function MachineDetail({ machine, onClose }) {
           </div>
         )}
         <div style={s.actionRow} className="action-row">
-          <button style={s.primaryAction}>Request Detailed Quote</button>
-          <button style={s.secondaryAction}>Schedule Video Inspection</button>
+          <a href={`mailto:siddharth.chauhan19@gmail.com?subject=Quote Request: ${encodeURIComponent(machine.name)}&body=${encodeURIComponent(`Hi,\n\nI'm interested in getting a detailed quote for:\n${machine.name}\n\nPlease share pricing and availability details.\n\nThank you.`)}`} style={{ ...s.primaryAction, textDecoration: "none", textAlign: "center" }}>Request Detailed Quote</a>
+          <a href="tel:+919818599744" style={{ ...s.secondaryAction, textDecoration: "none", textAlign: "center" }}>Call +91 98185 99744</a>
         </div>
       </div>
     </div>
@@ -254,7 +257,7 @@ function MachineDetail({ machine, onClose }) {
 
 function CostRow({ label, value, bold, total }) {
   return (
-    <div style={{ ...s.costRow, ...(total ? s.costRowTotal : {}) }}>
+    <div style={{ ...s.costRow, ...(total ? s.costRowTotal : {}) }} className="cost-row">
       <span style={{ fontWeight: bold || total ? 700 : 400 }}>{label}</span>
       <span style={{ fontWeight: bold || total ? 700 : 400, fontSize: total ? "1.15rem" : undefined }}>{formatINR(value)}</span>
     </div>
@@ -315,9 +318,8 @@ function Footer() {
         </div>
         <div style={s.footerCol}>
           <h4 style={s.footerHeading}>Contact</h4>
-          <p style={s.footerLink}>info@machinesbridge.com</p>
-          <p style={s.footerLink}>+49 (0) 40 XXXX XXXX</p>
-          <p style={s.footerLink}>Hamburg, Germany</p>
+          <p style={s.footerLink}><a href="mailto:siddharth.chauhan19@gmail.com" style={{ color: "inherit", textDecoration: "none" }}>siddharth.chauhan19@gmail.com</a></p>
+          <p style={s.footerLink}><a href="tel:+919818599744" style={{ color: "inherit", textDecoration: "none" }}>+91 98185 99744</a></p>
         </div>
       </div>
     </footer>
